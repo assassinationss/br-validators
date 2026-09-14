@@ -11,6 +11,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Keep SELIC CLI tests aligned with the refreshed official vector instead of asserting a stale rolling rate.
+- Upgrade GitHub Actions dependencies to Node 24-compatible releases before the Node 20 runtime removal.
+
 ## [1.10.0-data.41] - 2026-08-11
 
 ### Changed

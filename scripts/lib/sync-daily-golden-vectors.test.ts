@@ -47,10 +47,14 @@ describe('sync-daily-golden-vectors', () => {
     expect(updated).toBe(true);
 
     const vectors = JSON.parse(await readFile(vectorsPath, 'utf8')) as {
-      golden: { ultimaMeta: { data: string }; inicioJanela: { data: string } };
+      golden: {
+        ultimaMeta: { data: string; valor: number };
+        inicioJanela: { data: string };
+      };
       staleness: { capturadoEm: string; freshReferenceDate: string };
     };
     expect(vectors.golden.ultimaMeta.data).toBe('2026-06-29');
+    expect(vectors.golden.ultimaMeta.valor).toBe(14.25);
     expect(vectors.golden.inicioJanela.data).toBe('2026-04-01');
     expect(vectors.staleness.capturadoEm).toBe('2026-06-29');
     expect(vectors.staleness.freshReferenceDate).toBe('2026-06-29');
