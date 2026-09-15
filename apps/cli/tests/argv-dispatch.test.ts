@@ -22,6 +22,9 @@ import {
 } from '@br-validators/core';
 import { dispatchArgv, parseArgv } from '../src/argv-dispatch.js';
 import { EXIT } from '../src/constants.js';
+import vectors from '../../../packages/br-validators/tests/vectors/selic.official.json';
+
+const historicalSelicDate = vectors.golden.historicoRange.middle.data;
 
 function io() {
   return { stdout: [] as string[], stderr: [] as string[] };
@@ -418,7 +421,7 @@ describe('dispatchArgv', () => {
 
     const selic = io();
     expect(dispatchArgv(['selic', '--json'], selic)).toBe(EXIT.OK);
-    expect(dispatchArgv(['selic', '--date', '2026-06-18', '--json'], io())).toBe(EXIT.OK);
+    expect(dispatchArgv(['selic', '--date', historicalSelicDate, '--json'], io())).toBe(EXIT.OK);
 
     const issMunicipal = io();
     expect(dispatchArgv(['iss-municipal', 'lookup', '3550308', '--json'], issMunicipal)).toBe(EXIT.OK);

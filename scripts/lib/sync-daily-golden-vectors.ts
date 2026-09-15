@@ -10,8 +10,11 @@ interface SelicOfficialVectors {
   golden: {
     ultimaMeta: { data: string; valor: number };
     inicioJanela: { data: string; valor: number };
-    copomJun2026: { data: string; valor: number };
-    antesCopom: { data: string; valor: number };
+    historicoRange: {
+      from: { data: string; valor: number };
+      middle: { data: string; valor: number };
+      to: { data: string; valor: number };
+    };
   };
   staleness: {
     asOfFresh: string;
@@ -89,18 +92,28 @@ export async function syncSelicGoldenVectors(
   const metadata = JSON.parse(await readFile(metadataPath, 'utf8')) as { capturadoEm: string };
   const vectors = JSON.parse(await readFile(vectorsPath, 'utf8')) as SelicOfficialVectors;
 
-  if (selic.length === 0) {
+  if (selic.length < 3) {
     return false;
   }
 
-  const first = selic[0];
-  const latest = selic[selic.length - 1];
+  const first = selic.at(0);
+  const middle = selic.at(1);
+  const lastInSample = selic.at(2);
+  const latest = selic.at(-1);
+  if (first === undefined || middle === undefined || lastInSample === undefined || latest === undefined) {
+    return false;
+  }
+
   const next: SelicOfficialVectors = {
     ...vectors,
     golden: {
-      ...vectors.golden,
       ultimaMeta: { data: latest.data, valor: latest.valor },
       inicioJanela: { data: first.data, valor: first.valor },
+      historicoRange: {
+        from: { data: first.data, valor: first.valor },
+        middle: { data: middle.data, valor: middle.valor },
+        to: { data: lastInSample.data, valor: lastInSample.valor },
+      },
     },
     staleness: {
       ...vectors.staleness,
