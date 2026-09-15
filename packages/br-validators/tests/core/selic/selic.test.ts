@@ -72,6 +72,12 @@ describe('SELIC — official golden vectors', () => {
     expect(historico[0]).toEqual(historical.from);
     expect(historico[1]).toEqual(historical.middle);
     expect(historico[2]).toEqual(historical.to);
+
+    const filteredHistorico = getSelicHistorico({
+      from: historical.middle.data,
+      to: historical.to.data,
+    });
+    expect(filteredHistorico).toEqual([historical.middle, historical.to]);
   });
 
   it('returns undefined or empty for invalid inputs', () => {
