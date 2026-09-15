@@ -10,8 +10,11 @@ interface SelicOfficialVectors {
   golden: {
     ultimaMeta: { data: string; valor: number };
     inicioJanela: { data: string; valor: number };
-    copomJun2026: { data: string; valor: number };
-    antesCopom: { data: string; valor: number };
+    historicoRange: {
+      from: { data: string; valor: number };
+      middle: { data: string; valor: number };
+      to: { data: string; valor: number };
+    };
   };
   staleness: {
     asOfFresh: string;
@@ -94,13 +97,23 @@ export async function syncSelicGoldenVectors(
   }
 
   const first = selic[0];
+  const middle = selic[1];
+  const lastInSample = selic[2];
   const latest = selic[selic.length - 1];
+  if (first === undefined || middle === undefined || lastInSample === undefined || latest === undefined) {
+    return false;
+  }
+
   const next: SelicOfficialVectors = {
     ...vectors,
     golden: {
-      ...vectors.golden,
       ultimaMeta: { data: latest.data, valor: latest.valor },
       inicioJanela: { data: first.data, valor: first.valor },
+      historicoRange: {
+        from: { data: first.data, valor: first.valor },
+        middle: { data: middle.data, valor: middle.valor },
+        to: { data: lastInSample.data, valor: lastInSample.valor },
+      },
     },
     staleness: {
       ...vectors.staleness,

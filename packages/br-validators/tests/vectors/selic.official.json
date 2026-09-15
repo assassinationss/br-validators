@@ -9,17 +9,23 @@
       "data": "2026-08-05",
       "valor": 14.25
     },
-    "copomJun2026": {
-      "data": "2026-06-18",
-      "valor": 14.25
-    },
-    "antesCopom": {
-      "data": "2026-06-17",
-      "valor": 14.5
-    },
     "inicioJanela": {
       "data": "2026-05-08",
       "valor": 14.5
+    },
+    "historicoRange": {
+      "from": {
+        "data": "2026-05-08",
+        "valor": 14.5
+      },
+      "middle": {
+        "data": "2026-05-09",
+        "valor": 14.5
+      },
+      "to": {
+        "data": "2026-05-10",
+        "valor": 14.5
+      }
     }
   },
   "staleness": {

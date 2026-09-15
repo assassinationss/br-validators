@@ -24,6 +24,8 @@ describe('sync-daily-golden-vectors', () => {
   it('updates SELIC rolling golden fields from embedded data', async () => {
     const selicPath = await writeJson('selic/selic.json', [
       { data: '2026-04-01', valor: 14.75 },
+      { data: '2026-04-02', valor: 14.75 },
+      { data: '2026-04-03', valor: 14.75 },
       { data: '2026-06-29', valor: 14.25 },
     ]);
     const metadataPath = await writeJson('selic/metadata.json', { capturadoEm: '2026-06-29' });
@@ -31,8 +33,11 @@ describe('sync-daily-golden-vectors', () => {
       golden: {
         ultimaMeta: { data: '2026-06-26', valor: 14.25 },
         inicioJanela: { data: '2026-03-29', valor: 14.75 },
-        copomJun2026: { data: '2026-06-18', valor: 14.25 },
-        antesCopom: { data: '2026-06-17', valor: 14.5 },
+        historicoRange: {
+          from: { data: '2026-03-29', valor: 14.75 },
+          middle: { data: '2026-03-30', valor: 14.75 },
+          to: { data: '2026-03-31', valor: 14.75 },
+        },
       },
       staleness: {
         asOfFresh: '2026-06-26',
@@ -56,6 +61,11 @@ describe('sync-daily-golden-vectors', () => {
     expect(vectors.golden.ultimaMeta.data).toBe('2026-06-29');
     expect(vectors.golden.ultimaMeta.valor).toBe(14.25);
     expect(vectors.golden.inicioJanela.data).toBe('2026-04-01');
+    expect(vectors.golden.historicoRange).toEqual({
+      from: { data: '2026-04-01', valor: 14.75 },
+      middle: { data: '2026-04-02', valor: 14.75 },
+      to: { data: '2026-04-03', valor: 14.75 },
+    });
     expect(vectors.staleness.capturadoEm).toBe('2026-06-29');
     expect(vectors.staleness.freshReferenceDate).toBe('2026-06-29');
   });

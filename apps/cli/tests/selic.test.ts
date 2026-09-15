@@ -6,6 +6,8 @@ import { handleSelicCli } from '../src/handlers.js';
 import vectors from '../../../packages/br-validators/tests/vectors/selic.official.json';
 
 describe('selic CLI', () => {
+  const historical = vectors.golden.historicoRange.middle;
+
   it('prints latest meta as json', () => {
     const io = { stdout: [] as string[], stderr: [] as string[] };
     expect(runSelicCommand({ json: true, verbose: true }, io)).toBe(EXIT.OK);
@@ -14,12 +16,12 @@ describe('selic CLI', () => {
     expect(parsed.capturadoEm).toBeDefined();
   });
 
-  it('prints historical meta for COPOM date', () => {
+  it('prints an embedded historical meta as json', () => {
     const io = { stdout: [] as string[], stderr: [] as string[] };
-    expect(runSelicCommand({ json: true, verbose: false, date: '2026-06-18' }, io)).toBe(EXIT.OK);
+    expect(runSelicCommand({ json: true, verbose: false, date: historical.data }, io)).toBe(EXIT.OK);
     const parsed = JSON.parse(io.stdout[0]) as { meta: { data: string; valor: number } };
-    expect(parsed.meta.data).toBe('2026-06-18');
-    expect(parsed.meta.valor).toBe(vectors.golden.copomJun2026.valor);
+    expect(parsed.meta.data).toBe(historical.data);
+    expect(parsed.meta.valor).toBe(historical.valor);
   });
 
   it('prints human output without verbose', () => {
@@ -31,8 +33,8 @@ describe('selic CLI', () => {
 
   it('prints human output with verbose staleness', () => {
     const io = { stdout: [] as string[], stderr: [] as string[] };
-    expect(runSelicCommand({ json: false, verbose: true, date: '2026-06-18' }, io)).toBe(EXIT.OK);
-    expect(io.stdout[0]).toContain(`${String(vectors.golden.copomJun2026.valor)}%`);
+    expect(runSelicCommand({ json: false, verbose: true, date: historical.data }, io)).toBe(EXIT.OK);
+    expect(io.stdout[0]).toContain(`${String(historical.valor)}%`);
     expect(io.stdout.some((line) => line.startsWith('isStale: true'))).toBe(true);
     expect(io.stdout.some((line) => line.startsWith('capturadoEm:'))).toBe(true);
   });

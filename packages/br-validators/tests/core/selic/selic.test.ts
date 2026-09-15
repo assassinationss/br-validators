@@ -4,8 +4,6 @@ import {
   BCB_SELIC_DATASET_URL,
   BCB_SELIC_SGS_API_URL,
   SELIC_DATA_VERSION,
-  SELIC_GOLDEN_DATA_COPOM,
-  SELIC_GOLDEN_VALOR_COPOM,
   SELIC_STALE_WARNING,
   buildSelicMetaResult,
   getBrazilTodayIso,
@@ -20,6 +18,8 @@ import {
 import vectors from '../../vectors/selic.official.json';
 
 describe('SELIC — official golden vectors', () => {
+  const historical = vectors.golden.historicoRange;
+
   it('resolves latest meta Selic', () => {
     const meta = getSelicMeta({ asOfDate: vectors.staleness.asOfFresh });
     expect(meta?.data).toBe(vectors.golden.ultimaMeta.data);
@@ -29,41 +29,49 @@ describe('SELIC — official golden vectors', () => {
     expect(meta?.warning).toBeUndefined();
   });
 
-  it('resolves COPOM change on 2026-06-18', () => {
-    const meta = getSelicMetaPorData(SELIC_GOLDEN_DATA_COPOM, {
+  it('resolves an embedded historical observation', () => {
+    const meta = getSelicMetaPorData(historical.middle.data, {
       asOfDate: vectors.staleness.asOfFresh,
     });
-    expect(meta?.valor).toBe(SELIC_GOLDEN_VALOR_COPOM);
-    expect(meta?.valor).toBe(vectors.golden.copomJun2026.valor);
+    expect(meta?.data).toBe(historical.middle.data);
+    expect(meta?.valor).toBe(historical.middle.valor);
     expect(meta?.isStale).toBe(true);
     expect(meta?.warning).toBe(SELIC_STALE_WARNING);
   });
 
-  it('resolves day before COPOM at 14.50% a.a.', () => {
-    const meta = getSelicMetaPorData(vectors.golden.antesCopom.data, {
+  it('resolves the first observation in the embedded historical range', () => {
+    const meta = getSelicMetaPorData(historical.from.data, {
       asOfDate: vectors.staleness.asOfFresh,
     });
-    expect(meta?.valor).toBe(vectors.golden.antesCopom.valor);
+    expect(meta?.data).toBe(historical.from.data);
+    expect(meta?.valor).toBe(historical.from.valor);
     expect(meta?.isStale).toBe(true);
   });
 
   it('resolves historical date using Bacen MM-DD-YYYY format', () => {
-    const meta = getSelicMetaPorData('06-18-2026', { asOfDate: vectors.staleness.asOfFresh });
-    expect(meta?.data).toBe(vectors.golden.copomJun2026.data);
-    expect(meta?.valor).toBe(vectors.golden.copomJun2026.valor);
+    const [year, month, day] = historical.middle.data.split('-');
+    const meta = getSelicMetaPorData(`${month}-${day}-${year}`, {
+      asOfDate: vectors.staleness.asOfFresh,
+    });
+    expect(meta?.data).toBe(historical.middle.data);
+    expect(meta?.valor).toBe(historical.middle.valor);
   });
 
   it('resolves historical date using DD/MM/YYYY slash format', () => {
-    const meta = getSelicMetaPorData('18/06/2026', { asOfDate: vectors.staleness.asOfFresh });
-    expect(meta?.data).toBe(vectors.golden.copomJun2026.data);
-    expect(meta?.valor).toBe(vectors.golden.copomJun2026.valor);
+    const [year, month, day] = historical.middle.data.split('-');
+    const meta = getSelicMetaPorData(`${day}/${month}/${year}`, {
+      asOfDate: vectors.staleness.asOfFresh,
+    });
+    expect(meta?.data).toBe(historical.middle.data);
+    expect(meta?.valor).toBe(historical.middle.valor);
   });
 
   it('returns historico range inclusive', () => {
-    const historico = getSelicHistorico({ from: '2026-06-17', to: '2026-06-19' });
+    const historico = getSelicHistorico({ from: historical.from.data, to: historical.to.data });
     expect(historico.length).toBe(3);
-    expect(historico[0]?.valor).toBe(vectors.golden.antesCopom.valor);
-    expect(historico[2]?.valor).toBe(vectors.golden.copomJun2026.valor);
+    expect(historico[0]).toEqual(historical.from);
+    expect(historico[1]).toEqual(historical.middle);
+    expect(historico[2]).toEqual(historical.to);
   });
 
   it('returns undefined or empty for invalid inputs', () => {
