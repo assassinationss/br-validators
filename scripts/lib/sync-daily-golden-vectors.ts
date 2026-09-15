@@ -92,14 +92,14 @@ export async function syncSelicGoldenVectors(
   const metadata = JSON.parse(await readFile(metadataPath, 'utf8')) as { capturadoEm: string };
   const vectors = JSON.parse(await readFile(vectorsPath, 'utf8')) as SelicOfficialVectors;
 
-  if (selic.length === 0) {
+  if (selic.length < 3) {
     return false;
   }
 
-  const first = selic[0];
-  const middle = selic[1];
-  const lastInSample = selic[2];
-  const latest = selic[selic.length - 1];
+  const first = selic.at(0);
+  const middle = selic.at(1);
+  const lastInSample = selic.at(2);
+  const latest = selic.at(-1);
   if (first === undefined || middle === undefined || lastInSample === undefined || latest === undefined) {
     return false;
   }
