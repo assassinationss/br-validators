@@ -55,6 +55,11 @@ describe('sync-daily-golden-vectors', () => {
       golden: {
         ultimaMeta: { data: string; valor: number };
         inicioJanela: { data: string };
+        historicoRange: {
+          from: { data: string; valor: number };
+          middle: { data: string; valor: number };
+          to: { data: string; valor: number };
+        };
       };
       staleness: { capturadoEm: string; freshReferenceDate: string };
     };
