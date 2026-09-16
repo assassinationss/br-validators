@@ -11,6 +11,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.10.0-data.42] - 2026-09-16
+
+### Changed
+
+- Reference data refresh (daily bot) — **1.10.0 data #42**: 5 dataset(s) changed (+618 −11 ~35).
+
+
 ### Fixed
 
 - Keep SELIC CLI tests aligned with the refreshed official vector instead of asserting a stale rolling rate.

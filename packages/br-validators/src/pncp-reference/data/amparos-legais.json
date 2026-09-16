@@ -1096,5 +1096,41 @@
     "nome": "Lei 9.636/1998, Art. 24-D, § 3º",
     "descricao": "A execução do plano de desestatização poderá incluir as ações previstas nos incisos I, II e III do caput do art. 24-C desta Lei. (Incluído pela Lei 14.011, de 2020)",
     "ativo": true
+  },
+  {
+    "id": 184,
+    "nome": "Lei 13.303/2016, Art. 55, I",
+    "descricao": "Disputa final, em que os licitantes empatados poderão apresentar nova proposta fechada, em ato contínuo ao encerramento da etapa de julgamento.",
+    "ativo": true
+  },
+  {
+    "id": 185,
+    "nome": "Lei 13.303/2016, Art. 55, II",
+    "descricao": "Avaliação do desempenho contratual prévio dos licitantes, desde que exista sistema objetivo de avaliação instituído.",
+    "ativo": true
+  },
+  {
+    "id": 186,
+    "nome": "Lei 13.303/2016, Art. 55, III",
+    "descricao": "Os critérios estabelecidos no art. 3º da Lei nº 8.248, de 23 de outubro de 1991.",
+    "ativo": true
+  },
+  {
+    "id": 187,
+    "nome": "Lei 13.303/2016, Art. 55, IV",
+    "descricao": "Sorteio como critério final de desempate entre propostas, aplicado quando os demais critérios de desempate previstos na Lei das Estatais não forem suficientes para definir o vencedor da licitação.",
+    "ativo": true
+  },
+  {
+    "id": 188,
+    "nome": "Lei 13.303/2026, Art. 28. §1º",
+    "descricao": "Desempate previsto no art. 44 e 45 da Lei Complementar nº 123/2006.",
+    "ativo": true
+  },
+  {
+    "id": 189,
+    "nome": "Lei 12.232/2010, Art. 5º",
+    "descricao": "Dispõe sobre as normas gerais para licitação e contratação pela administração pública de serviços de publicidade prestados por intermédio de agências de propaganda e dá outras providências.",
+    "ativo": true
   }
 ]

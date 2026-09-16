@@ -1038,15 +1038,8 @@
   {
     "codigo": "326",
     "ispb": "03311443",
-    "nome": "PARATI - CREDITO, FINANCIAMENTO E INVESTIMENTO S.A.",
-    "nomeReduzido": "PARATI - CFI S.A.",
-    "participaCompe": false
-  },
-  {
-    "codigo": "328",
-    "ispb": "05841967",
-    "nome": "COOPERATIVA DE ECONOMIA E CRÉDITO MÚTUO DOS FABRICANTES DE CALÇADOS DE SAPIRANGA LTDA.",
-    "nomeReduzido": "CECM FABRIC CALÇADOS SAPIRANGA",
+    "nome": "MEUTUDO S.A - SOCIEDADE DE CRÉDITO, FINANCIAMENTO E INVESTIMENTO",
+    "nomeReduzido": "MEUTUDO SCFI",
     "participaCompe": false
   },
   {
@@ -1416,8 +1409,8 @@
   {
     "codigo": "404",
     "ispb": "37241230",
-    "nome": "SUMUP SOCIEDADE DE CRÉDITO DIRETO S.A.",
-    "nomeReduzido": "SUMUP SCD S.A.",
+    "nome": "SUMUP SOCIEDADE DE CRÉDITO, FINANCIAMENTO E INVESTIMENTO S.A.",
+    "nomeReduzido": "SUMUP SCFI S.A",
     "participaCompe": false
   },
   {
@@ -1577,8 +1570,8 @@
   {
     "codigo": "438",
     "ispb": "67030395",
-    "nome": "TRUSTEE DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA.",
-    "nomeReduzido": "TRUSTEE DTVM LTDA.",
+    "nome": "TRUSTEE DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA. - EM LIQUIDAÇÃO EXTRAJUDICIAL",
+    "nomeReduzido": "TRUSTEE DTVM LTDA. - EM LIQUIDAÇÃO EXTRAJUDICIAL",
     "participaCompe": false
   },
   {
@@ -1920,8 +1913,8 @@
   {
     "codigo": "514",
     "ispb": "73302408",
-    "nome": "EXIM CORRETORA DE CAMBIO LTDA",
-    "nomeReduzido": "EXIM CC LTDA.",
+    "nome": "EXIM SOCIEDADE CORRETORA DE CÂMBIO LTDA",
+    "nomeReduzido": "EXIM SCC",
     "participaCompe": false
   },
   {
@@ -2074,8 +2067,8 @@
   {
     "codigo": "537",
     "ispb": "45756448",
-    "nome": "MICROCASH SOCIEDADE DE CRÉDITO AO MICROEMPREENDEDOR E À EMPRESA DE PEQUENO PORTE LTDA.",
-    "nomeReduzido": "MICROCASH SCMEPP LTDA.",
+    "nome": "SELECT CREDIT SOCIEDADE DE CRÉDITO AO MICROEMPREENDEDOR E À EMPRESA DE PEQUENO PORTE LTDA.",
+    "nomeReduzido": "SELECT CREDIT SCMEPP LTDA.",
     "participaCompe": false
   },
   {
@@ -2125,13 +2118,6 @@
     "ispb": "38593706",
     "nome": "MULTICRED SOCIEDADE DE CRÉDITO DIRETO S.A.",
     "nomeReduzido": "MULTICRED SCD S.A.",
-    "participaCompe": false
-  },
-  {
-    "codigo": "545",
-    "ispb": "17352220",
-    "nome": "SENSO CORRETORA DE CAMBIO E VALORES MOBILIARIOS S.A",
-    "nomeReduzido": "SENSO CCVM S.A.",
     "participaCompe": false
   },
   {
@@ -2249,8 +2235,8 @@
   {
     "codigo": "564",
     "ispb": "63019146",
-    "nome": "J17 - SOCIEDADE DE CRÉDITO, FINANCIAMENTO E INVESTIMENTO S/A",
-    "nomeReduzido": "J17 CFI S.A.",
+    "nome": "ANKOR CAPITAL - SOCIEDADE DE CRÉDITO, FINANCIAMENTO E INVESTIMENTO S/A",
+    "nomeReduzido": "ANKOR CFI S.A.",
     "participaCompe": false
   },
   {
@@ -2345,41 +2331,6 @@
     "participaCompe": false
   },
   {
-    "codigo": "580",
-    "ispb": "87437687",
-    "nome": "COOPERATIVA CENTRAL DE CRÉDITO, POUPANÇA E INVESTIMENTO DO SUL E SUDESTE - CENTRAL SICREDI SUL/SUDESTE",
-    "nomeReduzido": "CCCPOUPINV SUL E SUDESTE - CENTRAL SUL/SUDESTE",
-    "participaCompe": false
-  },
-  {
-    "codigo": "581",
-    "ispb": "70119680",
-    "nome": "COOPERATIVA CENTRAL DE CRÉDITO, POUPANÇA E INVESTIMENTO DO NORDESTE - CENTRAL SICREDI NORDESTE",
-    "nomeReduzido": "CENTRAL NORDESTE",
-    "participaCompe": false
-  },
-  {
-    "codigo": "582",
-    "ispb": "33737818",
-    "nome": "COOPERATIVA CENTRAL DE CRÉDITO, POUPANÇA E INVESTIMENTO DE MATO GROSSO DO SUL, GOIÁS, DISTRITO FEDERAL E TOCANTINS - CENTRAL SICREDI BRASIL CENTRAL",
-    "nomeReduzido": "CCC POUP INV DE MS, GO, DF E TO",
-    "participaCompe": false
-  },
-  {
-    "codigo": "583",
-    "ispb": "33667205",
-    "nome": "COOPERATIVA CENTRAL DE CRÉDITO, POUPANÇA E INVESTIMENTO DO CENTRO NORTE DO BRASIL - CENTRAL SICREDI CENTRO NORTE",
-    "nomeReduzido": "CCC POUP INV DO CENTRO NORTE DO BRASIL",
-    "participaCompe": false
-  },
-  {
-    "codigo": "584",
-    "ispb": "80230774",
-    "nome": "COOPERATIVA CENTRAL DE CRÉDITO, POUPANÇA E INVESTIMENTO DOS ESTADOS DO PARANÁ, SÃO PAULO E RIO DE JANEIRO - CENTRAL SICREDI PR/SP/RJ",
-    "nomeReduzido": "CCC POUP E INV DOS ESTADOS DO PR, SP E RJ",
-    "participaCompe": false
-  },
-  {
     "codigo": "585",
     "ispb": "50946592",
     "nome": "SETHI SOCIEDADE DE CRÉDITO DIRETO S.A.",
@@ -2424,8 +2375,8 @@
   {
     "codigo": "591",
     "ispb": "02671743",
-    "nome": "BANVOX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA",
-    "nomeReduzido": "BANVOX DTVM",
+    "nome": "BANVOX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA - EM LIQUIDAÇÃO EXTRAJUDICIAL",
+    "nomeReduzido": "BANVOX DTVM - EM LIQUIDAÇÃO EXTRAJUDICIAL",
     "participaCompe": false
   },
   {
@@ -2849,13 +2800,6 @@
     "participaCompe": false
   },
   {
-    "codigo": "689",
-    "ispb": "51118718",
-    "nome": "NVIO BRASIL SOCIEDADE DE CRÉDITO DIRETO S.A.",
-    "nomeReduzido": "NVIO BRASIL SCD S.A.",
-    "participaCompe": false
-  },
-  {
     "codigo": "690",
     "ispb": "16814330",
     "nome": "BK INSTITUIÇÃO DE PAGAMENTO S.A.",
@@ -2989,13 +2933,6 @@
     "participaCompe": false
   },
   {
-    "codigo": "720",
-    "ispb": "80271455",
-    "nome": "BANCO RNX S.A.",
-    "nomeReduzido": "BCO RNX S.A.",
-    "participaCompe": false
-  },
-  {
     "codigo": "741",
     "ispb": "00517645",
     "nome": "BANCO RIBEIRAO PRETO S.A.",
@@ -3027,7 +2964,7 @@
     "codigo": "748",
     "ispb": "01181521",
     "nome": "BANCO COOPERATIVO SICREDI S.A.",
-    "nomeReduzido": "BCO COOPERATIVO SICREDI S.A.",
+    "nomeReduzido": "BANCO COOPERATIVO SICREDI",
     "participaCompe": true
   },
   {
@@ -3192,6 +3129,13 @@
     "participaCompe": false
   },
   {
+    "codigo": "778",
+    "ispb": "58674454",
+    "nome": "PB SOCIEDADE DE CREDITO DIRETO S.A.",
+    "nomeReduzido": "PB SCD",
+    "participaCompe": false
+  },
+  {
     "codigo": "780",
     "ispb": "12102128",
     "nome": "SAFETYPAY BRASIL INSTITUICAO DE PAGAMENTO LTDA",
@@ -3287,6 +3231,13 @@
     "ispb": "52067630",
     "nome": "BANCO TRATON BRASIL S.A.",
     "nomeReduzido": "BANCO TRATON BRASIL S.A.",
+    "participaCompe": false
+  },
+  {
+    "codigo": "804",
+    "ispb": "32343119",
+    "nome": "MÊNTORE INSTITUIÇÃO DE PAGAMENTO S.A.",
+    "nomeReduzido": "MÊNTORE IP S.A.",
     "participaCompe": false
   }
 ]

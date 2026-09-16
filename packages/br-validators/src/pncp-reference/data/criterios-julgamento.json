@@ -2,55 +2,55 @@
   {
     "id": 1,
     "nome": "Menor preço",
-    "descricao": "",
+    "descricao": "Critério de julgamento que considera a menor proposta financeira para a execução do objeto, desde que atendidos os parâmetros mínimos de qualidade definidos no edital (Lei nº 14.133/2021, art. 33, I).",
     "ativo": true
   },
   {
     "id": 2,
     "nome": "Maior desconto",
-    "descricao": "",
+    "descricao": "Critério de julgamento em que o julgamento é realizado com base no maior percentual de desconto concedido sobre as tabelas de preços praticadas no mercado ou previamente fixadas pelo órgão (Lei nº 14.133/2021, art. 33, II).",
     "ativo": true
   },
   {
     "id": 3,
     "nome": "Melhor técnica ou conteúdo artístico",
-    "descricao": "",
+    "descricao": "Critério de julgamento aplicável na modalidade concurso ou em contratações específicas para a escolha de trabalho técnico, científico ou artístico, considerando exclusivamente a qualidade das propostas (Lei nº 14.133/2021, art. 33, III).",
     "ativo": false
   },
   {
     "id": 4,
     "nome": "Técnica e preço",
-    "descricao": "",
+    "descricao": "Critério de julgamento que pondera as valorações das propostas técnica e de preço, segundo pesos estabelecidos no edital, para objetos de natureza predominantemente intelectual, inovadora ou tecnológica (Lei nº 14.133/2021, art. 33, IV).",
     "ativo": true
   },
   {
     "id": 5,
     "nome": "Maior lance",
-    "descricao": "",
+    "descricao": "Critério de julgamento utilizado na modalidade leilão para a alienação de bens imóveis ou móveis inservíveis ou apreendidos, adjudicando ao licitante que oferecer o maior valor (Lei nº 14.133/2021, art. 33, V).",
     "ativo": true
   },
   {
     "id": 6,
     "nome": "Maior retorno econômico",
-    "descricao": "",
+    "descricao": "Critério de julgamento utilizado em contratos de eficiência, em que a proposta vencedora é a que proporciona a maior economia de recursos à Administração Pública (Lei nº 14.133/2021, art. 33, VI).",
     "ativo": true
   },
   {
     "id": 7,
     "nome": "Não se aplica",
-    "descricao": "",
+    "descricao": "Indicação utilizada em procedimentos em que não há competição por critério de julgamento, como nas hipóteses de inexigibilidade de licitação ou contratações diretas sem fase competitiva.",
     "ativo": true
   },
   {
     "id": 8,
     "nome": "Melhor técnica",
-    "descricao": "",
+    "descricao": "Critério de julgamento voltado à escolha da proposta de maior valoração técnica, com prêmio ou remuneração fixada no edital, aplicado quando o projeto ou serviço técnico exigir alta especialização (Lei nº 14.133/2021, art. 33, III e art. 35).",
     "ativo": true
   },
   {
     "id": 9,
     "nome": "Conteúdo artístico",
-    "descricao": "",
+    "descricao": "Critério de julgamento que avalia exclusivamente o valor e os atributos artísticos, culturais ou estéticos da proposta ou do trabalho apresentado (Lei nº 14.133/2021, art. 33, III e art. 35).",
     "ativo": true
   }
 ]
