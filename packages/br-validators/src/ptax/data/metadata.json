@@ -6,23 +6,23 @@
     "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoMoedaPeriodo(moeda=@moeda,dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)",
     "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/swagger-ui3"
   ],
-  "capturadoEm": "2026-09-16",
-  "atualizadoEm": "2026-09-16T08:10:34.496Z",
+  "capturadoEm": "2026-09-17",
+  "atualizadoEm": "2026-09-17T08:17:09.407Z",
   "contagens": {
     "cotacoes": 870,
     "moedas": 10,
     "diasUteis": 87
   },
   "alteracoes": {
-    "adicionados": 290,
-    "removidos": 270,
+    "adicionados": 10,
+    "removidos": 10,
     "alterados": 0,
-    "comparadoCom": "2026-08-05"
+    "comparadoCom": "2026-09-16"
   },
   "verificacao": {
     "agendamento": "diario",
     "workflow": "data-refresh-bot.yml",
-    "ultimaExecucao": "2026-09-16T08:10:34.496Z"
+    "ultimaExecucao": "2026-09-17T08:17:09.407Z"
   },
   "documentacao": "docs/OFFICIAL-SOURCES.md#ptax-cotacoes",
   "janelaDiasUteis": 90
