@@ -92,25 +92,35 @@ jobs:
       - name: Verify npm registry
         run: |
           VERSION="${{ steps.version.outputs.version }}"
-          wait_for_version() {
-            local pkg="$1"
-            local attempt=1
-            while [ "$attempt" -le 12 ]; do
-              PUBLISHED="$(npm view "${pkg}@${VERSION}" version 2>/dev/null || true)"
+          PACKAGES=(
+            @br-validators/core
+            @br-validators/cli
+            @br-validators/zod
+            @br-validators/react-hook-form
+            @br-validators/express
+            @br-validators/vue
+          )
+          MAX_ATTEMPTS=24
+          for attempt in $(seq 1 "$MAX_ATTEMPTS"); do
+            missing=()
+            for PKG in "${PACKAGES[@]}"; do
+              PUBLISHED="$(npm view "${PKG}@${VERSION}" version --registry=https://registry.npmjs.org 2>/dev/null || true)"
               if [ "$PUBLISHED" = "$VERSION" ]; then
-                echo "OK: ${pkg}@${VERSION}"
-                return 0
+                echo "OK: ${PKG}@${VERSION}"
+              else
+                echo "WAIT: ${PKG}@${VERSION} not visible yet (attempt ${attempt}/${MAX_ATTEMPTS})"
+                missing+=("$PKG")
               fi
-              echo "WAIT: ${pkg}@${VERSION} not visible yet (attempt ${attempt}/12)"
-              sleep 5
-              attempt=$((attempt + 1))
             done
-            echo "Expected ${pkg}@${VERSION}, got: ${PUBLISHED:-<missing>}"
-            return 1
-          }
-          for PKG in core cli zod react-hook-form express vue; do
-            wait_for_version "@br-validators/${PKG}"
+            if [ "${#missing[@]}" -eq 0 ]; then
+              exit 0
+            fi
+            if [ "$attempt" -lt "$MAX_ATTEMPTS" ]; then
+              sleep 10
+            fi
           done
+          echo "Expected ${VERSION} for all packages, but these were not visible: ${missing[*]}"
+          exit 1
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
