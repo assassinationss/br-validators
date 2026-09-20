@@ -6,7 +6,7 @@
     "https://servicodados.ibge.gov.br/api/v1/localidades/municipios"
   ],
   "attempts": 5,
-  "checkedAt": "2026-09-19T07:42:56.424Z",
-  "retainedEmbeddedDataFrom": "2026-09-19",
+  "checkedAt": "2026-09-20T08:11:01.141Z",
+  "retainedEmbeddedDataFrom": "2026-09-20",
   "message": "Official IBGE API fetch succeeded."
 }

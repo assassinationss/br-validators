@@ -1,2 +1,2 @@
-CRITICAL dataset=pncp-reference streak=2 first_failure=2026-09-18 retained=2026-09-17 message="Possible link deprecation (HTTP 502 fetching https://pncp.gov.br/api/pncp/v1/modalidades). No new data after 5 attempts (interval 120000ms) — embedded data from 2026-09-17 retained in the API."
-UPDATED 2026-09-19T08:23:46.346Z
+CRITICAL dataset=pncp-reference streak=3 first_failure=2026-09-18 retained=2026-09-17 message="Possible link deprecation (HTTP 503 fetching https://pncp.gov.br/api/pncp/v1/modalidades). No new data after 5 attempts (interval 120000ms) — embedded data from 2026-09-17 retained in the API."
+UPDATED 2026-09-20T08:50:21.679Z

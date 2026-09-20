@@ -12,9 +12,9 @@
     "https://pncp.gov.br/api/pncp/v1/fontes-orcamentarias"
   ],
   "attempts": 5,
-  "checkedAt": "2026-09-19T08:23:42.531Z",
+  "checkedAt": "2026-09-20T08:50:18.370Z",
   "retainedEmbeddedDataFrom": "2026-09-17",
-  "message": "Possible link deprecation (HTTP 502 fetching https://pncp.gov.br/api/pncp/v1/modalidades). No new data after 5 attempts (interval 120000ms) — embedded data from 2026-09-17 retained in the API.",
+  "message": "Possible link deprecation (HTTP 503 fetching https://pncp.gov.br/api/pncp/v1/modalidades). No new data after 5 attempts (interval 120000ms) — embedded data from 2026-09-17 retained in the API.",
   "failureKind": "link_deprecated",
   "attemptedEndpoints": [
     "https://pncp.gov.br/api/pncp/v1/modalidades",
@@ -26,5 +26,5 @@
     "https://pncp.gov.br/api/pncp/v1/tipos-instrumentos-cobranca",
     "https://pncp.gov.br/api/pncp/v1/fontes-orcamentarias"
   ],
-  "httpStatus": 502
+  "httpStatus": 503
 }
