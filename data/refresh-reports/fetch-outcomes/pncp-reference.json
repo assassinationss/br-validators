@@ -1,6 +1,6 @@
 {
   "datasetId": "pncp-reference",
-  "status": "source_unavailable",
+  "status": "source_blocked",
   "endpoints": [
     "https://pncp.gov.br/api/pncp/v1/modalidades",
     "https://pncp.gov.br/api/pncp/v1/amparos-legais",
@@ -12,10 +12,10 @@
     "https://pncp.gov.br/api/pncp/v1/fontes-orcamentarias"
   ],
   "attempts": 5,
-  "checkedAt": "2026-09-20T08:50:18.370Z",
+  "checkedAt": "2026-09-21T09:09:49.251Z",
   "retainedEmbeddedDataFrom": "2026-09-17",
-  "message": "Possible link deprecation (HTTP 503 fetching https://pncp.gov.br/api/pncp/v1/modalidades). No new data after 5 attempts (interval 120000ms) — embedded data from 2026-09-17 retained in the API.",
-  "failureKind": "link_deprecated",
+  "message": "Source blocked or unreachable from CI network — not link deprecation (Timeout after 30000ms). No new data after 5 attempts (interval 120000ms) — embedded data from 2026-09-17 retained in the API.",
+  "failureKind": "source_blocked",
   "attemptedEndpoints": [
     "https://pncp.gov.br/api/pncp/v1/modalidades",
     "https://pncp.gov.br/api/pncp/v1/amparos-legais",
@@ -25,6 +25,5 @@
     "https://pncp.gov.br/api/pncp/v1/criterios-julgamentos",
     "https://pncp.gov.br/api/pncp/v1/tipos-instrumentos-cobranca",
     "https://pncp.gov.br/api/pncp/v1/fontes-orcamentarias"
-  ],
-  "httpStatus": 503
+  ]
 }

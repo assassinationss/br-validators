@@ -1,6 +1,6 @@
 ### Data refresh report
 
-- Run date: 2026-09-20
+- Run date: 2026-09-21
 - Datasets checked: 30
 - Datasets changed: 2
 - Baselines sealed this run: 0
@@ -13,7 +13,7 @@ See `data/refresh-reports/CRITICAL-ALERTS.md` for maintainer actions.
 
 ### Source health alerts
 
-- **pncp-reference** (critical): Possible link deprecation (HTTP 503 fetching https://pncp.gov.br/api/pncp/v1/modalidades). No new data after 5 attempts (interval 120000ms) — embedded data from 2026-09-17 retained in the API. (embedded data from 2026-09-17 retained)
+- **pncp-reference** (critical): Source blocked or unreachable from CI network — not link deprecation (Timeout after 30000ms). No new data after 5 attempts (interval 120000ms) — embedded data from 2026-09-17 retained in the API. (embedded data from 2026-09-17 retained)
 
 See `docs/DATA-SOURCE-MAINTENANCE.md` for remediation steps.
 
