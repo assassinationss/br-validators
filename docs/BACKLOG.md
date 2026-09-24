@@ -41,7 +41,7 @@
 
 ### P-05 — Generate playground parity
 
-Core + CLI already support 17 `GeneratableDocumentType` values. Playground missing UI for: renavam, cnh, titulo-eleitor, nfe-chave, brcode, boleto, boleto-arrecadacao, IE produtor rural.
+Core + CLI already support 17 `GeneratableDocumentType` values. Playground document workspaces now cover all of them, including `boleto-arrecadacao` and IE produtor rural (`ie-produtor-rural` route); validate/format/strip/sanitize/generate tabs follow `DocumentCapabilities` per slug. (Format tab stays disabled for `boleto-arrecadacao` — core has no arrecadação formatter.)
 
 ### P-04 — Reference surface gaps
 

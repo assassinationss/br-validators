@@ -1,4 +1,5 @@
 import {
+  BOLETO_ARRECADACAO_OFFICIAL_SOURCE_URL,
   BOLETO_GOLDEN_LINHA_MASKED,
   BOLETO_LAYOUTS_PORTAL_URL,
   BOLETO_OFFICIAL_SOURCE_URL,
@@ -17,6 +18,8 @@ import {
   CPF_OFFICIAL_SOURCE_URL,
   IE_OFFICIAL_SOURCE_URLS,
   IE_SP_GOLDEN,
+  IE_SP_RURAL_GOLDEN_MASKED,
+  IE_SP_RURAL_OFFICIAL_SOURCE_URL,
   NFE_CHAVE_GOLDEN_PRIMARY,
   NFE_CHAVE_OFFICIAL_SOURCE_URL,
   CNIS_GOLDEN_INSS_NIT_MASKED,
@@ -195,6 +198,26 @@ export const DOCUMENT_META: Record<DocumentSlug, DocumentMeta> = {
     officialLinks: [
       { href: BOLETO_OFFICIAL_SOURCE_URL, label: 'Official source: Convenção da Cobrança' },
       { href: BOLETO_LAYOUTS_PORTAL_URL, label: 'Official source: FEBRABAN Layouts' },
+    ],
+  },
+  'boleto-arrecadacao': {
+    title: 'Boleto Arrecadação Validator',
+    description: 'FEBRABAN arrecadação · linha (48) / código de barras (44)',
+    defaultInput: '84630000000 381234567890 612345678901 523456789012 9',
+    inputLabel: 'Input',
+    cliSlug: 'boleto',
+    officialLinks: [
+      { href: BOLETO_ARRECADACAO_OFFICIAL_SOURCE_URL, label: 'Official source: FEBRABAN Layout Arrecadação v7' },
+    ],
+  },
+  'ie-produtor-rural': {
+    title: 'IE Produtor Rural Validator',
+    description: 'SP rural producer · P prefix + modulo 11',
+    defaultInput: IE_SP_RURAL_GOLDEN_MASKED,
+    inputLabel: 'Input',
+    cliSlug: 'ie',
+    officialLinks: [
+      { href: IE_SP_RURAL_OFFICIAL_SOURCE_URL, label: 'Official source: SEFAZ-SP produtor rural' },
     ],
   },
   cartao: {
