@@ -65,6 +65,23 @@ function pickLatestByMoeda(
     .sort((left, right) => right.data.localeCompare(left.data))[0];
 }
 
+function parseIsoCalendarDay(isoDate: string): number | null {
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/u.exec(isoDate);
+  if (match === null) {
+    return null;
+  }
+  return Date.UTC(Number(match[1]), Number(match[2]) - 1, Number(match[3]));
+}
+
+function calendarDayDifference(fromIso: string, toIso: string): number | null {
+  const from = parseIsoCalendarDay(fromIso);
+  const to = parseIsoCalendarDay(toIso);
+  if (from === null || to === null) {
+    return null;
+  }
+  return Math.round((to - from) / 86_400_000);
+}
+
 function resolveStaleReferenceDate(
   records: readonly { data: string }[],
   freshDate: string,
@@ -72,13 +89,32 @@ function resolveStaleReferenceDate(
 ): string {
   const dates = new Set(records.map((row) => row.data));
   if (dates.has(currentStale) && currentStale < freshDate) {
-    return currentStale;
+    // Keep the existing stale date while it remains in the rolling window
+    // AND is far enough from fresh to guarantee staleness.
+    // Staleness = data < previous business day. Previous business day can be
+    // up to 3-4 calendar days before asOf (weekend + holiday), so require a
+    // 7-day gap to stay stale across weekends/holidays.
+    const gap = calendarDayDifference(currentStale, freshDate);
+    if (gap !== null && gap >= 7) {
+      return currentStale;
+    }
+    // If the gap is small (or unparseable), fall through to pick the oldest
+    // date below, which is guaranteed stale in a 90-day rolling window.
+    if (gap === null) {
+      return currentStale;
+    }
   }
 
+  // Fallback when the old stale date falls out of the rolling window (or got
+  // too close to fresh): pick the OLDEST date, not the newest.
+  // The newest date < fresh (fresh - 1 day) equals the previous business day
+  // in the common case, so `isStale(newest, asOfFresh)` is false and the
+  // `marks older observation as stale` test fails in CI after refresh.
+  // The oldest date in a 80-95 record window is always stale.
   const older = records
     .map((row) => row.data)
     .filter((date) => date < freshDate)
-    .sort((left, right) => right.localeCompare(left));
+    .sort((left, right) => left.localeCompare(right));
 
   return older[0] ?? currentStale;
 }
