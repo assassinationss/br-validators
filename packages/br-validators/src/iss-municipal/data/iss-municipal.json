@@ -148,9 +148,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 25
   },
   {
@@ -170,9 +170,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 27
   },
   {
@@ -181,9 +181,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 28
   },
   {
@@ -203,9 +203,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 30
   },
   {
@@ -214,9 +214,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 31
   },
   {
@@ -247,9 +247,9 @@
     "uf": "ES",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 37
   },
   {
@@ -269,9 +269,9 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 40
   },
   {
@@ -280,9 +280,9 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 41
   },
   {
@@ -346,9 +346,9 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 49
   },
   {
@@ -357,9 +357,9 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 51
   },
   {
@@ -368,20 +368,20 @@
     "uf": "BA",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 53
   },
   {
     "codigoIbge": 1505536,
     "nome": "Parauapebas",
     "uf": "PA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 2.5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 54
   },
   {
@@ -434,9 +434,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 61
   },
   {
@@ -445,9 +445,9 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 62
   },
   {
@@ -456,9 +456,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 63
   },
   {
@@ -489,9 +489,9 @@
     "uf": "GO",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 67
   },
   {
@@ -544,9 +544,9 @@
     "uf": "BA",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 73
   },
   {
@@ -566,9 +566,9 @@
     "uf": "GO",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 75
   },
   {
@@ -588,9 +588,9 @@
     "uf": "GO",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 77
   },
   {
@@ -608,11 +608,11 @@
     "codigoIbge": 3131307,
     "nome": "Ipatinga",
     "uf": "MG",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 79
   },
   {
@@ -641,11 +641,11 @@
     "codigoIbge": 2607901,
     "nome": "Jaboatão dos Guararapes",
     "uf": "PE",
-    "aliquotaMin": 2,
+    "aliquotaMin": 4,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 82
   },
   {
@@ -676,20 +676,20 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 85
   },
   {
     "codigoIbge": 2607208,
     "nome": "Ipojuca",
     "uf": "PE",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 86
   },
   {
@@ -720,20 +720,20 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 89
   },
   {
     "codigoIbge": 4108304,
     "nome": "Foz do Iguaçu",
     "uf": "PR",
-    "aliquotaMin": 2,
+    "aliquotaMin": 4,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 90
   },
   {
@@ -742,9 +742,9 @@
     "uf": "MS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 91
   },
   {
@@ -764,9 +764,9 @@
     "uf": "ES",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 93
   },
   {
@@ -817,11 +817,11 @@
     "codigoIbge": 1502152,
     "nome": "Canaã dos Carajás",
     "uf": "PA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 98
   },
   {
@@ -839,11 +839,11 @@
     "codigoIbge": 5107602,
     "nome": "Rondonópolis",
     "uf": "MT",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 100
   },
   {
@@ -852,9 +852,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 101
   },
   {
@@ -907,9 +907,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 108
   },
   {
@@ -918,20 +918,20 @@
     "uf": "ES",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 109
   },
   {
     "codigoIbge": 2602902,
     "nome": "Cabo de Santo Agostinho",
     "uf": "PE",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 110
   },
   {
@@ -940,9 +940,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 111
   },
   {
@@ -951,9 +951,9 @@
     "uf": "MT",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 112
   },
   {
@@ -973,9 +973,9 @@
     "uf": "CE",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 114
   },
   {
@@ -1006,9 +1006,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 117
   },
   {
@@ -1028,9 +1028,9 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 119
   },
   {
@@ -1061,20 +1061,20 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 122
   },
   {
     "codigoIbge": 5008305,
     "nome": "Três Lagoas",
     "uf": "MS",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 123
   },
   {
@@ -1083,9 +1083,9 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 124
   },
   {
@@ -1115,10 +1115,10 @@
     "nome": "Goiana",
     "uf": "PE",
     "aliquotaMin": 2,
-    "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "aliquotaMax": 2,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 127
   },
   {
@@ -1127,9 +1127,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 128
   },
   {
@@ -1138,9 +1138,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 129
   },
   {
@@ -1160,9 +1160,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 131
   },
   {
@@ -1171,9 +1171,9 @@
     "uf": "BA",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 133
   },
   {
@@ -1193,9 +1193,9 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 135
   },
   {
@@ -1215,9 +1215,9 @@
     "uf": "MT",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 137
   },
   {
@@ -1226,9 +1226,9 @@
     "uf": "MT",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 138
   },
   {
@@ -1237,9 +1237,9 @@
     "uf": "PB",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 139
   },
   {
@@ -1259,9 +1259,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 142
   },
   {
@@ -1270,9 +1270,9 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 143
   },
   {
@@ -1281,9 +1281,9 @@
     "uf": "GO",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 144
   },
   {
@@ -1292,9 +1292,9 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 145
   },
   {
@@ -1347,9 +1347,9 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 150
   },
   {
@@ -1391,9 +1391,9 @@
     "uf": "GO",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 154
   },
   {
@@ -1433,11 +1433,11 @@
     "codigoIbge": 1500800,
     "nome": "Ananindeua",
     "uf": "PA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 158
   },
   {
@@ -1446,9 +1446,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 159
   },
   {
@@ -1457,9 +1457,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 160
   },
   {
@@ -1490,9 +1490,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 163
   },
   {
@@ -1501,9 +1501,9 @@
     "uf": "PE",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 164
   },
   {
@@ -1512,9 +1512,9 @@
     "uf": "RN",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 165
   },
   {
@@ -1532,11 +1532,11 @@
     "codigoIbge": 2928901,
     "nome": "São Desidério",
     "uf": "BA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 167
   },
   {
@@ -1600,9 +1600,9 @@
     "uf": "BA",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 173
   },
   {
@@ -1633,9 +1633,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 176
   },
   {
@@ -1677,9 +1677,9 @@
     "uf": "PE",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 180
   },
   {
@@ -1699,9 +1699,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 182
   },
   {
@@ -1710,20 +1710,20 @@
     "uf": "MA",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 183
   },
   {
     "codigoIbge": 2903201,
     "nome": "Barreiras",
     "uf": "BA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 184
   },
   {
@@ -1732,9 +1732,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 185
   },
   {
@@ -1743,9 +1743,9 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 186
   },
   {
@@ -1765,9 +1765,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 188
   },
   {
@@ -1787,20 +1787,20 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 190
   },
   {
     "codigoIbge": 1501303,
     "nome": "Barcarena",
     "uf": "PA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 191
   },
   {
@@ -1820,9 +1820,9 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 193
   },
   {
@@ -1840,22 +1840,22 @@
     "codigoIbge": 3204302,
     "nome": "Presidente Kennedy",
     "uf": "ES",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 195
   },
   {
     "codigoIbge": 4322004,
     "nome": "Triunfo",
     "uf": "RS",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 196
   },
   {
@@ -1875,9 +1875,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 198
   },
   {
@@ -1886,9 +1886,9 @@
     "uf": "MA",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 199
   },
   {
@@ -1897,20 +1897,20 @@
     "uf": "BA",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 200
   },
   {
     "codigoIbge": 5105259,
     "nome": "Lucas do Rio Verde",
     "uf": "MT",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 201
   },
   {
@@ -1919,9 +1919,9 @@
     "uf": "MT",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 202
   },
   {
@@ -1930,9 +1930,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 203
   },
   {
@@ -1941,9 +1941,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 204
   },
   {
@@ -1952,9 +1952,9 @@
     "uf": "ES",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 205
   },
   {
@@ -1985,9 +1985,9 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 208
   },
   {
@@ -1996,9 +1996,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 209
   },
   {
@@ -2007,9 +2007,9 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 210
   },
   {
@@ -2018,20 +2018,20 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 211
   },
   {
     "codigoIbge": 2403251,
     "nome": "Parnamirim",
     "uf": "RN",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 212
   },
   {
@@ -2040,20 +2040,20 @@
     "uf": "MT",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 213
   },
   {
     "codigoIbge": 2930709,
     "nome": "Simões Filho",
     "uf": "BA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 214
   },
   {
@@ -2084,9 +2084,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 217
   },
   {
@@ -2095,9 +2095,9 @@
     "uf": "MT",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 218
   },
   {
@@ -2106,9 +2106,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 219
   },
   {
@@ -2126,22 +2126,22 @@
     "codigoIbge": 3203320,
     "nome": "Marataízes",
     "uf": "ES",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 221
   },
   {
     "codigoIbge": 2906501,
     "nome": "Candeias",
     "uf": "BA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 222
   },
   {
@@ -2150,9 +2150,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 223
   },
   {
@@ -2161,20 +2161,20 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 224
   },
   {
     "codigoIbge": 4303103,
     "nome": "Cachoeirinha",
     "uf": "RS",
-    "aliquotaMin": 2,
+    "aliquotaMin": 2.5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 225
   },
   {
@@ -2194,9 +2194,9 @@
     "uf": "CE",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 227
   },
   {
@@ -2216,9 +2216,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 229
   },
   {
@@ -2249,9 +2249,9 @@
     "uf": "BA",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 232
   },
   {
@@ -2282,20 +2282,20 @@
     "uf": "GO",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 235
   },
   {
     "codigoIbge": 3147006,
     "nome": "Paracatu",
     "uf": "MG",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 236
   },
   {
@@ -2304,9 +2304,9 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 237
   },
   {
@@ -2315,31 +2315,31 @@
     "uf": "PE",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 238
   },
   {
     "codigoIbge": 2610707,
     "nome": "Paulista",
     "uf": "PE",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 239
   },
   {
     "codigoIbge": 3200607,
     "nome": "Aracruz",
     "uf": "ES",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 240
   },
   {
@@ -2348,9 +2348,9 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 241
   },
   {
@@ -2359,9 +2359,9 @@
     "uf": "ES",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 242
   },
   {
@@ -2370,9 +2370,9 @@
     "uf": "GO",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 243
   },
   {
@@ -2434,22 +2434,22 @@
     "codigoIbge": 1702109,
     "nome": "Araguaína",
     "uf": "TO",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 249
   },
   {
     "codigoIbge": 3202801,
     "nome": "Itapemirim",
     "uf": "ES",
-    "aliquotaMin": 2,
+    "aliquotaMin": 4,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 250
   },
   {
@@ -2469,9 +2469,9 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 252
   },
   {
@@ -2480,20 +2480,20 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 253
   },
   {
     "codigoIbge": 4311403,
     "nome": "Lajeado",
     "uf": "RS",
-    "aliquotaMin": 2,
+    "aliquotaMin": 2.5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 254
   },
   {
@@ -2513,9 +2513,9 @@
     "uf": "CE",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 256
   },
   {
@@ -2524,20 +2524,20 @@
     "uf": "PA",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 257
   },
   {
     "codigoIbge": 2911105,
     "nome": "Formosa do Rio Preto",
     "uf": "BA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 258
   },
   {
@@ -2579,31 +2579,31 @@
     "uf": "AL",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 262
   },
   {
     "codigoIbge": 5107875,
     "nome": "Sapezal",
     "uf": "MT",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 263
   },
   {
     "codigoIbge": 5220454,
     "nome": "Senador Canedo",
     "uf": "GO",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 264
   },
   {
@@ -2612,20 +2612,20 @@
     "uf": "CE",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 265
   },
   {
     "codigoIbge": 5005400,
     "nome": "Maracaju",
     "uf": "MS",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 266
   },
   {
@@ -2634,9 +2634,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 267
   },
   {
@@ -2645,9 +2645,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 268
   },
   {
@@ -2665,11 +2665,11 @@
     "codigoIbge": 5206206,
     "nome": "Cristalina",
     "uf": "GO",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 270
   },
   {
@@ -2678,9 +2678,9 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 271
   },
   {
@@ -2689,9 +2689,9 @@
     "uf": "PA",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 272
   },
   {
@@ -2722,9 +2722,9 @@
     "uf": "BA",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 275
   },
   {
@@ -2755,20 +2755,20 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 278
   },
   {
     "codigoIbge": 3168705,
     "nome": "Timóteo",
     "uf": "MG",
-    "aliquotaMin": 2,
+    "aliquotaMin": 4,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 279
   },
   {
@@ -2788,20 +2788,20 @@
     "uf": "PE",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 281
   },
   {
     "codigoIbge": 5103502,
     "nome": "Diamantino",
     "uf": "MT",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 282
   },
   {
@@ -2810,9 +2810,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 283
   },
   {
@@ -2821,9 +2821,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 284
   },
   {
@@ -2841,11 +2841,11 @@
     "codigoIbge": 5102678,
     "nome": "Campo Verde",
     "uf": "MT",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 286
   },
   {
@@ -2874,11 +2874,11 @@
     "codigoIbge": 2900702,
     "nome": "Alagoinhas",
     "uf": "BA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 289
   },
   {
@@ -2909,9 +2909,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 292
   },
   {
@@ -2920,20 +2920,20 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 293
   },
   {
     "codigoIbge": 3140001,
     "nome": "Mariana",
     "uf": "MG",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 294
   },
   {
@@ -2953,31 +2953,31 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 296
   },
   {
     "codigoIbge": 1505502,
     "nome": "Paragominas",
     "uf": "PA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 297
   },
   {
     "codigoIbge": 3136207,
     "nome": "João Monlevade",
     "uf": "MG",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 298
   },
   {
@@ -2986,9 +2986,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 299
   },
   {
@@ -2997,9 +2997,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 300
   },
   {
@@ -3008,9 +3008,9 @@
     "uf": "RO",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 301
   },
   {
@@ -3019,9 +3019,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 302
   },
   {
@@ -3030,20 +3030,20 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 303
   },
   {
     "codigoIbge": 1301209,
     "nome": "Coari",
     "uf": "AM",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 304
   },
   {
@@ -3052,9 +3052,9 @@
     "uf": "MT",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 305
   },
   {
@@ -3063,9 +3063,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 306
   },
   {
@@ -3074,9 +3074,9 @@
     "uf": "BA",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 307
   },
   {
@@ -3127,11 +3127,11 @@
     "codigoIbge": 5006606,
     "nome": "Ponta Porã",
     "uf": "MS",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 312
   },
   {
@@ -3184,9 +3184,9 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 317
   },
   {
@@ -3195,9 +3195,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 318
   },
   {
@@ -3226,11 +3226,11 @@
     "codigoIbge": 1100304,
     "nome": "Vilhena",
     "uf": "RO",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 321
   },
   {
@@ -3239,9 +3239,9 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 322
   },
   {
@@ -3270,11 +3270,11 @@
     "codigoIbge": 2925303,
     "nome": "Porto Seguro",
     "uf": "BA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 325
   },
   {
@@ -3283,9 +3283,9 @@
     "uf": "CE",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 326
   },
   {
@@ -3294,9 +3294,9 @@
     "uf": "ES",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 327
   },
   {
@@ -3316,9 +3316,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 329
   },
   {
@@ -3349,9 +3349,9 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 332
   },
   {
@@ -3360,9 +3360,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 333
   },
   {
@@ -3404,20 +3404,20 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 337
   },
   {
     "codigoIbge": 4101408,
     "nome": "Apucarana",
     "uf": "PR",
-    "aliquotaMin": 2,
+    "aliquotaMin": 2.5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 338
   },
   {
@@ -3426,9 +3426,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 339
   },
   {
@@ -3437,9 +3437,9 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 340
   },
   {
@@ -3448,20 +3448,20 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 341
   },
   {
     "codigoIbge": 4304705,
     "nome": "Carazinho",
     "uf": "RS",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 342
   },
   {
@@ -3503,9 +3503,9 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 346
   },
   {
@@ -3525,9 +3525,9 @@
     "uf": "MA",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 348
   },
   {
@@ -3558,20 +3558,20 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 351
   },
   {
     "codigoIbge": 3139409,
     "nome": "Manhuaçu",
     "uf": "MG",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 352
   },
   {
@@ -3580,9 +3580,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 353
   },
   {
@@ -3591,9 +3591,9 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 354
   },
   {
@@ -3602,9 +3602,9 @@
     "uf": "BA",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 355
   },
   {
@@ -3613,20 +3613,20 @@
     "uf": "ES",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 356
   },
   {
     "codigoIbge": 1508357,
     "nome": "Vitória do Xingu",
     "uf": "PA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 357
   },
   {
@@ -3635,20 +3635,20 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 358
   },
   {
     "codigoIbge": 4317202,
     "nome": "Santa Rosa",
     "uf": "RS",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 359
   },
   {
@@ -3657,9 +3657,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 360
   },
   {
@@ -3688,11 +3688,11 @@
     "codigoIbge": 2924009,
     "nome": "Paulo Afonso",
     "uf": "BA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 363
   },
   {
@@ -3723,20 +3723,20 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 366
   },
   {
     "codigoIbge": 5007901,
     "nome": "Sidrolândia",
     "uf": "MS",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 367
   },
   {
@@ -3756,9 +3756,9 @@
     "uf": "BA",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 369
   },
   {
@@ -3767,42 +3767,42 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 370
   },
   {
     "codigoIbge": 3128709,
     "nome": "Guaxupé",
     "uf": "MG",
-    "aliquotaMin": 2,
+    "aliquotaMin": 2.5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 371
   },
   {
     "codigoIbge": 5107065,
     "nome": "Querência",
     "uf": "MT",
-    "aliquotaMin": 2,
-    "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "aliquotaMin": 3,
+    "aliquotaMax": 3,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 372
   },
   {
     "codigoIbge": 2211209,
     "nome": "Uruçuí",
     "uf": "PI",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 373
   },
   {
@@ -3822,9 +3822,9 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 375
   },
   {
@@ -3833,9 +3833,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 376
   },
   {
@@ -3855,9 +3855,9 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 378
   },
   {
@@ -3866,9 +3866,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 379
   },
   {
@@ -3886,22 +3886,22 @@
     "codigoIbge": 5003207,
     "nome": "Corumbá",
     "uf": "MS",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 381
   },
   {
     "codigoIbge": 1718204,
     "nome": "Porto Nacional",
     "uf": "TO",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 382
   },
   {
@@ -3910,9 +3910,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 383
   },
   {
@@ -3930,11 +3930,11 @@
     "codigoIbge": 3161908,
     "nome": "São Gonçalo do Rio Abaixo",
     "uf": "MG",
-    "aliquotaMin": 2,
+    "aliquotaMin": 4,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 385
   },
   {
@@ -3943,9 +3943,9 @@
     "uf": "GO",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 386
   },
   {
@@ -3963,22 +3963,22 @@
     "codigoIbge": 1100023,
     "nome": "Ariquemes",
     "uf": "RO",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 388
   },
   {
     "codigoIbge": 2804805,
     "nome": "Nossa Senhora do Socorro",
     "uf": "SE",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 389
   },
   {
@@ -3987,20 +3987,20 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 390
   },
   {
     "codigoIbge": 1503606,
     "nome": "Itaituba",
     "uf": "PA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 391
   },
   {
@@ -4009,9 +4009,9 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 392
   },
   {
@@ -4020,9 +4020,9 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 393
   },
   {
@@ -4031,20 +4031,20 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 394
   },
   {
     "codigoIbge": 2500601,
     "nome": "Alhandra",
     "uf": "PB",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 395
   },
   {
@@ -4053,20 +4053,20 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 396
   },
   {
     "codigoIbge": 2918001,
     "nome": "Jequié",
     "uf": "BA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 397
   },
   {
@@ -4075,9 +4075,9 @@
     "uf": "PB",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 398
   },
   {
@@ -4106,11 +4106,11 @@
     "codigoIbge": 2606804,
     "nome": "Igarassu",
     "uf": "PE",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 401
   },
   {
@@ -4119,31 +4119,31 @@
     "uf": "MS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 402
   },
   {
     "codigoIbge": 3117504,
     "nome": "Conceição do Mato Dentro",
     "uf": "MG",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 403
   },
   {
     "codigoIbge": 5002951,
     "nome": "Chapadão do Sul",
     "uf": "MS",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 404
   },
   {
@@ -4152,20 +4152,20 @@
     "uf": "PE",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 405
   },
   {
     "codigoIbge": 3147907,
     "nome": "Passos",
     "uf": "MG",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 406
   },
   {
@@ -4174,9 +4174,9 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 407
   },
   {
@@ -4196,9 +4196,9 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 409
   },
   {
@@ -4218,9 +4218,9 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 411
   },
   {
@@ -4238,11 +4238,11 @@
     "codigoIbge": 1500602,
     "nome": "Altamira",
     "uf": "PA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 413
   },
   {
@@ -4251,9 +4251,9 @@
     "uf": "ES",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 414
   },
   {
@@ -4271,11 +4271,11 @@
     "codigoIbge": 5106240,
     "nome": "Nova Ubiratã",
     "uf": "MT",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 416
   },
   {
@@ -4293,11 +4293,11 @@
     "codigoIbge": 5204508,
     "nome": "Caldas Novas",
     "uf": "GO",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 418
   },
   {
@@ -4306,9 +4306,9 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 419
   },
   {
@@ -4326,11 +4326,11 @@
     "codigoIbge": 4304804,
     "nome": "Carlos Barbosa",
     "uf": "RS",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 421
   },
   {
@@ -4339,9 +4339,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 422
   },
   {
@@ -4350,9 +4350,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 423
   },
   {
@@ -4361,9 +4361,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 424
   },
   {
@@ -4381,33 +4381,33 @@
     "codigoIbge": 2931350,
     "nome": "Teixeira de Freitas",
     "uf": "BA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 426
   },
   {
     "codigoIbge": 2112001,
     "nome": "Tasso Fragoso",
     "uf": "MA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 427
   },
   {
     "codigoIbge": 1709500,
     "nome": "Gurupi",
     "uf": "TO",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 428
   },
   {
@@ -4416,20 +4416,20 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 429
   },
   {
     "codigoIbge": 1506138,
     "nome": "Redenção",
     "uf": "PA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 430
   },
   {
@@ -4438,9 +4438,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 431
   },
   {
@@ -4449,9 +4449,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 432
   },
   {
@@ -4460,20 +4460,20 @@
     "uf": "GO",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 433
   },
   {
     "codigoIbge": 2601706,
     "nome": "Belo Jardim",
     "uf": "PE",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 434
   },
   {
@@ -4482,9 +4482,9 @@
     "uf": "PI",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 435
   },
   {
@@ -4502,11 +4502,11 @@
     "codigoIbge": 5007208,
     "nome": "Rio Brilhante",
     "uf": "MS",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 437
   },
   {
@@ -4524,11 +4524,11 @@
     "codigoIbge": 4203600,
     "nome": "Campos Novos",
     "uf": "SC",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 439
   },
   {
@@ -4537,9 +4537,9 @@
     "uf": "GO",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 440
   },
   {
@@ -4557,33 +4557,33 @@
     "codigoIbge": 4208302,
     "nome": "Itapema",
     "uf": "SC",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 442
   },
   {
     "codigoIbge": 5007695,
     "nome": "São Gabriel do Oeste",
     "uf": "MS",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 443
   },
   {
     "codigoIbge": 5101803,
     "nome": "Barra do Garças",
     "uf": "MT",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 444
   },
   {
@@ -4592,9 +4592,9 @@
     "uf": "MS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 445
   },
   {
@@ -4603,20 +4603,20 @@
     "uf": "RO",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 446
   },
   {
     "codigoIbge": 5205471,
     "nome": "Chapadão do Céu",
     "uf": "GO",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 447
   },
   {
@@ -4636,9 +4636,9 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 449
   },
   {
@@ -4678,22 +4678,22 @@
     "codigoIbge": 2110302,
     "nome": "Santo Antônio dos Lopes",
     "uf": "MA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 453
   },
   {
     "codigoIbge": 5102702,
     "nome": "Canarana",
     "uf": "MT",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 454
   },
   {
@@ -4702,9 +4702,9 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 455
   },
   {
@@ -4713,20 +4713,20 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 456
   },
   {
     "codigoIbge": 1600600,
     "nome": "Santana",
     "uf": "AP",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 457
   },
   {
@@ -4735,9 +4735,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 458
   },
   {
@@ -4746,9 +4746,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 459
   },
   {
@@ -4768,9 +4768,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 461
   },
   {
@@ -4779,9 +4779,9 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 462
   },
   {
@@ -4790,9 +4790,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 463
   },
   {
@@ -4821,11 +4821,11 @@
     "codigoIbge": 4210100,
     "nome": "Mafra",
     "uf": "SC",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 466
   },
   {
@@ -4845,9 +4845,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 468
   },
   {
@@ -4867,9 +4867,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 470
   },
   {
@@ -4900,20 +4900,20 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 473
   },
   {
     "codigoIbge": 2922003,
     "nome": "Mucuri",
     "uf": "BA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 474
   },
   {
@@ -4922,31 +4922,31 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 475
   },
   {
     "codigoIbge": 5007802,
     "nome": "Selvíria",
     "uf": "MS",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 476
   },
   {
     "codigoIbge": 2801207,
     "nome": "Canindé de São Francisco",
     "uf": "SE",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 477
   },
   {
@@ -4964,11 +4964,11 @@
     "codigoIbge": 5102686,
     "nome": "Campos de Júlio",
     "uf": "MT",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 479
   },
   {
@@ -4977,9 +4977,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 480
   },
   {
@@ -4988,9 +4988,9 @@
     "uf": "BA",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 481
   },
   {
@@ -4999,9 +4999,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 482
   },
   {
@@ -5019,22 +5019,22 @@
     "codigoIbge": 5005707,
     "nome": "Naviraí",
     "uf": "MS",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 484
   },
   {
     "codigoIbge": 2111201,
     "nome": "São José de Ribamar",
     "uf": "MA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 2.5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 485
   },
   {
@@ -5052,33 +5052,33 @@
     "codigoIbge": 2704708,
     "nome": "Marechal Deodoro",
     "uf": "AL",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3.5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 487
   },
   {
     "codigoIbge": 5210109,
     "nome": "Ipameri",
     "uf": "GO",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 488
   },
   {
     "codigoIbge": 5218508,
     "nome": "Quirinópolis",
     "uf": "GO",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 489
   },
   {
@@ -5087,20 +5087,20 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 490
   },
   {
     "codigoIbge": 2513703,
     "nome": "Santa Rita",
     "uf": "PB",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 491
   },
   {
@@ -5109,9 +5109,9 @@
     "uf": "RS",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 492
   },
   {
@@ -5131,9 +5131,9 @@
     "uf": "MG",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 494
   },
   {
@@ -5142,9 +5142,9 @@
     "uf": "SC",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 495
   },
   {
@@ -5162,44 +5162,44 @@
     "codigoIbge": 4317103,
     "nome": "Sant'Ana do Livramento",
     "uf": "RS",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 497
   },
   {
     "codigoIbge": 5200258,
     "nome": "Águas Lindas de Goiás",
     "uf": "GO",
-    "aliquotaMin": 2,
+    "aliquotaMin": 3,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 498
   },
   {
     "codigoIbge": 2925204,
     "nome": "Pojuca",
     "uf": "BA",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 499
   },
   {
     "codigoIbge": 3202405,
     "nome": "Guarapari",
     "uf": "ES",
-    "aliquotaMin": 2,
+    "aliquotaMin": 5,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 500
   },
   {

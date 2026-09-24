@@ -3,7 +3,7 @@
   "pibSource": "https://apisidra.ibge.gov.br/values/t/5938/n6/all/v/37/p/2022",
   "targetCount": 500,
   "capitalCount": 27,
-  "officialCount": 164,
+  "officialCount": 449,
   "golden": {
     "saoPaulo": {
       "codigoIbge": 3550308,
@@ -48,6 +48,14 @@
       "estimativa": false,
       "fonte": "oficial",
       "leiUrlContains": "barueri.sp.gov.br"
+    },
+    "querencia": {
+      "codigoIbge": 5107065,
+      "aliquotaMin": 3,
+      "aliquotaMax": 3,
+      "estimativa": false,
+      "fonte": "oficial",
+      "leiUrlContains": "gov.br/nfse"
     }
   },
   "ufFilter": {
