@@ -90,8 +90,173 @@
     "uf": "PR"
   },
   {
+    "codigoIbge": 3300209,
+    "nome": "Araruama",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3300233,
+    "nome": "Armação dos Búzios",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3300258,
+    "nome": "Arraial do Cabo",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3300308,
+    "nome": "Barra do Piraí",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3300407,
+    "nome": "Barra Mansa",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3300456,
+    "nome": "Belford Roxo",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3300704,
+    "nome": "Cabo Frio",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3301306,
+    "nome": "Casimiro de Abreu",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3301702,
+    "nome": "Duque de Caxias",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3301900,
+    "nome": "Itaboraí",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3302205,
+    "nome": "Itaperuna",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3302254,
+    "nome": "Itatiaia",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3302502,
+    "nome": "Magé",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3302700,
+    "nome": "Maricá",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3302858,
+    "nome": "Mesquita",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3303203,
+    "nome": "Nilópolis",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3303302,
+    "nome": "Niterói",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3303401,
+    "nome": "Nova Friburgo",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3303500,
+    "nome": "Nova Iguaçu",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3303807,
+    "nome": "Paraty",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3303906,
+    "nome": "Petrópolis",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3304110,
+    "nome": "Porto Real",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3304144,
+    "nome": "Queimados",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3304201,
+    "nome": "Resende",
+    "uf": "RJ"
+  },
+  {
     "codigoIbge": 3304557,
     "nome": "Rio de Janeiro",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3304904,
+    "nome": "São Gonçalo",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3305000,
+    "nome": "São João da Barra",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3305109,
+    "nome": "São João de Meriti",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3305208,
+    "nome": "São Pedro da Aldeia",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3305554,
+    "nome": "Seropédica",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3305802,
+    "nome": "Teresópolis",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3306008,
+    "nome": "Três Rios",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3306107,
+    "nome": "Valença",
+    "uf": "RJ"
+  },
+  {
+    "codigoIbge": 3306305,
+    "nome": "Volta Redonda",
     "uf": "RJ"
   },
   {
@@ -125,8 +290,523 @@
     "uf": "SE"
   },
   {
+    "codigoIbge": 3501152,
+    "nome": "Alumínio",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3501608,
+    "nome": "Americana",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3501905,
+    "nome": "Amparo",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3502101,
+    "nome": "Andradina",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3502754,
+    "nome": "Araçariguama",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3502804,
+    "nome": "Araçatuba",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3503208,
+    "nome": "Araraquara",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3503307,
+    "nome": "Araras",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3503901,
+    "nome": "Arujá",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3504008,
+    "nome": "Assis",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3504107,
+    "nome": "Atibaia",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3504503,
+    "nome": "Avaré",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3506003,
+    "nome": "Bauru",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3506102,
+    "nome": "Bebedouro",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3506508,
+    "nome": "Birigui",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3507001,
+    "nome": "Boituva",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3507506,
+    "nome": "Botucatu",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3507605,
+    "nome": "Bragança Paulista",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3508405,
+    "nome": "Cabreúva",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3508504,
+    "nome": "Caçapava",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3509007,
+    "nome": "Caieiras",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3509205,
+    "nome": "Cajamar",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3509502,
+    "nome": "Campinas",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3509601,
+    "nome": "Campo Limpo Paulista",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3510500,
+    "nome": "Caraguatatuba",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3510609,
+    "nome": "Carapicuíba",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3511102,
+    "nome": "Catanduva",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3512407,
+    "nome": "Cordeirópolis",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3513009,
+    "nome": "Cotia",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3513405,
+    "nome": "Cruzeiro",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3513504,
+    "nome": "Cubatão",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3515004,
+    "nome": "Embu das Artes",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3515707,
+    "nome": "Ferraz de Vasconcelos",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3516200,
+    "nome": "Franca",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3516408,
+    "nome": "Franco da Rocha",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3517406,
+    "nome": "Guaíra",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3518404,
+    "nome": "Guaratinguetá",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3518701,
+    "nome": "Guarujá",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3519071,
+    "nome": "Hortolândia",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3520400,
+    "nome": "Ilhabela",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3520509,
+    "nome": "Indaiatuba",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3522208,
+    "nome": "Itapecerica da Serra",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3522307,
+    "nome": "Itapetininga",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3522406,
+    "nome": "Itapeva",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3522505,
+    "nome": "Itapevi",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3522604,
+    "nome": "Itapira",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3523107,
+    "nome": "Itaquaquecetuba",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3523404,
+    "nome": "Itatiba",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3524006,
+    "nome": "Itupeva",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3524402,
+    "nome": "Jacareí",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3524709,
+    "nome": "Jaguariúna",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3525003,
+    "nome": "Jandira",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3525201,
+    "nome": "Jarinu",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3525300,
+    "nome": "Jaú",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3526704,
+    "nome": "Leme",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3526803,
+    "nome": "Lençóis Paulista",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3526902,
+    "nome": "Limeira",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3527108,
+    "nome": "Lins",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3527207,
+    "nome": "Lorena",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3527306,
+    "nome": "Louveira",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3529005,
+    "nome": "Marília",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3530300,
+    "nome": "Mirassol",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3530508,
+    "nome": "Mococa",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3530607,
+    "nome": "Mogi das Cruzes",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3530706,
+    "nome": "Mogi Guaçu",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3530805,
+    "nome": "Mogi Mirim",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3531308,
+    "nome": "Monte Alto",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3531803,
+    "nome": "Monte Mor",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3533403,
+    "nome": "Nova Odessa",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3534302,
+    "nome": "Orlândia",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3534401,
+    "nome": "Osasco",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3534708,
+    "nome": "Ourinhos",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3536703,
+    "nome": "Pederneiras",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3538006,
+    "nome": "Pindamonhangaba",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3538709,
+    "nome": "Piracicaba",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3539301,
+    "nome": "Pirassununga",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3539806,
+    "nome": "Poá",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3540606,
+    "nome": "Porto Feliz",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3541406,
+    "nome": "Presidente Prudente",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3541604,
+    "nome": "Promissão",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3543402,
+    "nome": "Ribeirão Preto",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3545209,
+    "nome": "Salto",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3545803,
+    "nome": "Santa Bárbara d'Oeste",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3546405,
+    "nome": "Santa Cruz do Rio Pardo",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3546702,
+    "nome": "Santa Gertrudes",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3547304,
+    "nome": "Santana de Parnaíba",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3548906,
+    "nome": "São Carlos",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3549102,
+    "nome": "São João da Boa Vista",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3549805,
+    "nome": "São José do Rio Preto",
+    "uf": "SP"
+  },
+  {
     "codigoIbge": 3550308,
     "nome": "São Paulo",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3550605,
+    "nome": "São Roque",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3550704,
+    "nome": "São Sebastião",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3551009,
+    "nome": "São Vicente",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3551702,
+    "nome": "Sertãozinho",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3552403,
+    "nome": "Sumaré",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3552809,
+    "nome": "Taboão da Serra",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3554003,
+    "nome": "Tatuí",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3554102,
+    "nome": "Taubaté",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3556206,
+    "nome": "Valinhos",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3556453,
+    "nome": "Vargem Grande Paulista",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3556503,
+    "nome": "Várzea Paulista",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3556701,
+    "nome": "Vinhedo",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3557006,
+    "nome": "Votorantim",
+    "uf": "SP"
+  },
+  {
+    "codigoIbge": 3557105,
+    "nome": "Votuporanga",
     "uf": "SP"
   },
   {
