@@ -1,7 +1,7 @@
 # Coverage gaps — municipalities, ISS rates, RG, payroll tables
 
 > **Maintainers:** regenerate with `pnpm generate:coverage-gaps` after IBGE or ISS embed updates.
-> **Generated:** 2026-09-24T15:16:51.135Z
+> **Generated:** 2026-09-24T15:36:19.220Z
 
 This index lists **what is missing or estimation-only** in `@br-validators/core`. Full municipality lists live in JSON under [`data/coverage-gaps/`](../data/coverage-gaps/).
 
@@ -15,7 +15,7 @@ This index lists **what is missing or estimation-only** in `@br-validators/core`
 |---------|-------|----------------------------|-----|
 | **INSS employee contribution** | National (Anexo II) | [Portaria MPS/MF nº 6/2025](OFFICIAL-SOURCES.md#inss) | **None** — not per municipality |
 | **IRPF progressive (monthly)** | National | [RFB tables](OFFICIAL-SOURCES.md#irpf) | **None** — not per municipality |
-| **ISS municipal alíquota** | Per municipality (5.571 IBGE) | [LC 116 Art. 8 band](OFFICIAL-SOURCES.md#iss-municipal) + 27 capital legislation URLs | **5071** municipalities not in embed; **51** embedded rows are **estimation-only** |
+| **ISS municipal alíquota** | Per municipality (5.571 IBGE) | [LC 116 Art. 8 band](OFFICIAL-SOURCES.md#iss-municipal) + 27 capital legislation URLs | **5071** municipalities not in embed; **50** embedded rows are **estimation-only** |
 | **RG (Registro Geral)** | Per UF (27 states) | [§ RG index](OFFICIAL-SOURCES.md#rg--reference-index) | **24 UFs** format-only — no published official DV walkthrough |
 
 ---
@@ -27,8 +27,8 @@ This index lists **what is missing or estimation-only** in `@br-validators/core`
 | IBGE municipalities (total) | 5571 |
 | Embedded in library | 500 |
 | **Not embedded** (no lookup row) | **5071** |
-| Embedded with **official municipal rate** (verified legislation or NFSe-registered alíquota) | 449 |
-| Embedded with **estimation only** (LC 116 Art. 8 band — not verified municipal law) | **51** |
+| Embedded with **official municipal rate** (verified legislation or NFSe-registered alíquota) | 450 |
+| Embedded with **estimation only** (LC 116 Art. 8 band — not verified municipal law) | **50** |
 
 ### Counts by UF
 
@@ -49,7 +49,7 @@ This index lists **what is missing or estimation-only** in `@br-validators/core`
 | **MG** | 853 | 57 | 796 | 2 | 55 |
 | **PA** | 144 | 14 | 130 | 2 | 12 |
 | **PB** | 223 | 5 | 218 | 0 | 5 |
-| **PR** | 399 | 31 | 368 | 3 | 28 |
+| **PR** | 399 | 31 | 368 | 2 | 29 |
 | **PE** | 185 | 13 | 172 | 0 | 13 |
 | **PI** | 224 | 3 | 221 | 0 | 3 |
 | **RJ** | 92 | 43 | 49 | 9 | 34 |
@@ -67,8 +67,8 @@ This index lists **what is missing or estimation-only** in `@br-validators/core`
 | File | Description | Rows |
 |------|-------------|-----:|
 | [iss-municipal-not-embedded.json](../data/coverage-gaps/iss-municipal-not-embedded.json) | Municipalities with **no** ISS row in the library | 5071 |
-| [iss-municipal-estimativa-only.json](../data/coverage-gaps/iss-municipal-estimativa-only.json) | Embedded rows using LC 116 band only — **need municipal legislation citation** | 51 |
-| [iss-municipal-official-rate.json](../data/coverage-gaps/iss-municipal-official-rate.json) | State capitals with municipal legislation URLs | 449 |
+| [iss-municipal-estimativa-only.json](../data/coverage-gaps/iss-municipal-estimativa-only.json) | Embedded rows using LC 116 band only — **need municipal legislation citation** | 50 |
+| [iss-municipal-official-rate.json](../data/coverage-gaps/iss-municipal-official-rate.json) | State capitals with municipal legislation URLs | 450 |
 | [summary.json](../data/coverage-gaps/summary.json) | Totals + per-UF counts | — |
 
 ### How to contribute ISS municipal data

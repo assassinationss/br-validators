@@ -7,7 +7,8 @@
  * representative. Bands were adopted as registered (all within the LC 116 Art. 8 2%–5% band).
  * @see https://www.gov.br/nfse/pt-br/biblioteca/aliquotas
  *
- * 7 rows: municipal legislation verified directly (3 absent from the NFSe table):
+ * 8 rows: municipal legislation verified directly (Campinas, Niterói, Barueri absent
+ * from the NFSe table; Pato Branco present but below the 100-service threshold):
  * - Campinas/SP — Lei 12.392/2005, Art. 27 (2%–5%), via Biblioteca Jurídica da Prefeitura.
  * - Niterói/RJ — Lei 2.597/2008 arts. 65–124 (2%, 3%, 5%), via Secretaria Municipal de Fazenda.
  * - Barueri/SP — CTM LC 118/2002 + LC 157/2016 service table (2%–5%), via Secretaria de Finanças
@@ -22,6 +23,9 @@
  * - Serra/ES — Lei 5.400/2021 (regra 5%, também 2% e 3%), via Prefeitura SEFA + CTM Lei 3833/2011.
  *
  * Rows below the 100-service threshold (e.g. Olímpia/SP, Quissamã/RJ) stay estimativa-only.
+ *
+ * - Pato Branco/PR — LC 118/2025 Anexo Único (2% e.g. 1.01, 5% e.g. 15.02/22.01),
+ *   via Câmara Municipal SAPL full-text HTML (NFSe file corroborates 2.0–5.0 at n=87).
  * Guarulhos/SP verified via Lei 5.986/2003 but its Prefeitura PDF is HTTP-only, which violates
  * the https leiUrl invariant — left estimation-only until an HTTPS official URL is available.
  * @see https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8
@@ -335,6 +339,7 @@ export const ISS_MUNICIPAL_NFSE_SEEDS: readonly IssMunicipalRateSeed[] = [
   { codigoIbge: 4117305, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 4117909, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 4118402, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
+  { codigoIbge: 4118501, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://sapl.patobranco.pr.leg.br/ta/8836/text' },
   { codigoIbge: 4119152, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 4119905, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 4122404, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },

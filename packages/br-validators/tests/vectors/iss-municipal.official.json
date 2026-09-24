@@ -3,7 +3,7 @@
   "pibSource": "https://apisidra.ibge.gov.br/values/t/5938/n6/all/v/37/p/2022",
   "targetCount": 500,
   "capitalCount": 27,
-  "officialCount": 449,
+  "officialCount": 450,
   "golden": {
     "saoPaulo": {
       "codigoIbge": 3550308,
@@ -56,6 +56,14 @@
       "estimativa": false,
       "fonte": "oficial",
       "leiUrlContains": "gov.br/nfse"
+    },
+    "patoBranco": {
+      "codigoIbge": 4118501,
+      "aliquotaMin": 2,
+      "aliquotaMax": 5,
+      "estimativa": false,
+      "fonte": "oficial",
+      "leiUrlContains": "sapl.patobranco.pr.leg.br"
     }
   },
   "ufFilter": {

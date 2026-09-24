@@ -74,6 +74,17 @@ describe('ISS municipal — official golden vectors', () => {
     expect(barueri?.leiUrl).toContain(vectors.golden.barueri.leiUrlContains);
   });
 
+  it('resolves Pato Branco with SAPL-published municipal table', () => {
+    const patoBranco = getIssMunicipalPorIbge(vectors.golden.patoBranco.codigoIbge);
+    expect(patoBranco?.nome).toBe('Pato Branco');
+    expect(patoBranco?.uf).toBe('PR');
+    expect(patoBranco?.aliquotaMin).toBe(vectors.golden.patoBranco.aliquotaMin);
+    expect(patoBranco?.aliquotaMax).toBe(vectors.golden.patoBranco.aliquotaMax);
+    expect(patoBranco?.estimativa).toBe(vectors.golden.patoBranco.estimativa);
+    expect(patoBranco?.fonte).toBe(vectors.golden.patoBranco.fonte);
+    expect(patoBranco?.leiUrl).toContain(vectors.golden.patoBranco.leiUrlContains);
+  });
+
   it('resolves Querência with NFSe-registered max-refined band', () => {
     const querencia = getIssMunicipalPorIbge(vectors.golden.querencia.codigoIbge);
     expect(querencia?.nome).toBe('Querência');

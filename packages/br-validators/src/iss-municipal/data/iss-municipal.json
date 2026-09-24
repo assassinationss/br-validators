@@ -2777,9 +2777,9 @@
     "uf": "PR",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://sapl.patobranco.pr.leg.br/ta/8836/text",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 280
   },
   {
