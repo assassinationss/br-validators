@@ -13,7 +13,7 @@
     "https://www.gov.br/nfse/pt-br/biblioteca/aliquotas"
   ],
   "capturadoEm": "2026-09-24",
-  "atualizadoEm": "2026-09-24T15:30:00.000Z",
+  "atualizadoEm": "2026-09-24T15:50:00.000Z",
   "contagens": {
     "municipios": 500,
     "capitais": 27,
@@ -22,13 +22,13 @@
   "alteracoes": {
     "adicionados": 0,
     "removidos": 0,
-    "alterados": 285,
+    "alterados": 4,
     "comparadoCom": "2026-09-24"
   },
   "verificacao": {
     "agendamento": "manual",
     "workflow": "data-refresh-bot.yml",
-    "ultimaExecucao": "2026-09-24T15:30:00.000Z"
+    "ultimaExecucao": "2026-09-24T15:50:00.000Z"
   },
   "documentacao": "docs/OFFICIAL-SOURCES.md#iss-municipal",
   "estimativa": true

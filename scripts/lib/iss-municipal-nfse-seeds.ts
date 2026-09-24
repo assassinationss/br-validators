@@ -1,17 +1,25 @@
 /**
  * ISS rate seeds from verified non-capital sources — federal NFSe alíquotas + municipal legislation.
  *
- * 419 rows: gov.br NFS-e national platform alíquotas table (all 5,571 municipalities,
+ * 415 rows: gov.br NFS-e national platform alíquotas table (all 5,571 municipalities,
  * extraction 2026-09-03, updated 2026-09-16; all 26 state files parsed), restricted to
  * municipalities with >= 100 currently-valid service rows so the min/max band is
  * representative. Bands were adopted as registered (all within the LC 116 Art. 8 2%–5% band).
  * @see https://www.gov.br/nfse/pt-br/biblioteca/aliquotas
  *
- * 3 rows: municipal legislation verified directly (absent from the NFSe table):
+ * 7 rows: municipal legislation verified directly (3 absent from the NFSe table):
  * - Campinas/SP — Lei 12.392/2005, Art. 27 (2%–5%), via Biblioteca Jurídica da Prefeitura.
  * - Niterói/RJ — Lei 2.597/2008 arts. 65–124 (2%, 3%, 5%), via Secretaria Municipal de Fazenda.
  * - Barueri/SP — CTM LC 118/2002 + LC 157/2016 service table (2%–5%), via Secretaria de Finanças
  *   Lista de Serviços com Códigos e Alíquotas.
+ *
+ * 4 rows: NFSe-seeded bands corroborated by municipal legislation, now citing the municipal
+ * source directly (same 2%–5% bands, independently confirmed):
+ * - Contagem/MG — LC 240/2017 Anexo II-A Tabela I, via Receita Municipal Aliquotas_ISSQN_2025.
+ * - Uberlândia/MG — LC 336/2003 Art. 8 (max 5%) + service table (2% entries), band stated by
+ *   Câmara Municipal.
+ * - Londrina/PR — Lei 7.303/97 Tabela I 2026 (2% and 5% entries), via Prefeitura repository.
+ * - Serra/ES — Lei 5.400/2021 (regra 5%, também 2% e 3%), via Prefeitura SEFA + CTM Lei 3833/2011.
  *
  * Rows below the 100-service threshold (e.g. Olímpia/SP, Quissamã/RJ) stay estimativa-only.
  * Guarulhos/SP verified via Lei 5.986/2003 but its Prefeitura PDF is HTTP-only, which violates
@@ -111,7 +119,7 @@ export const ISS_MUNICIPAL_NFSE_SEEDS: readonly IssMunicipalRateSeed[] = [
   { codigoIbge: 3117504, aliquotaMin: 3, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 3118007, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 3118304, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
-  { codigoIbge: 3118601, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
+  { codigoIbge: 3118601, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://receita.contagem.mg.gov.br/downloads/Aliquotas_ISSQN_2025.pdf' },
   { codigoIbge: 3122306, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 3125101, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 3127107, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
@@ -153,7 +161,7 @@ export const ISS_MUNICIPAL_NFSE_SEEDS: readonly IssMunicipalRateSeed[] = [
   { codigoIbge: 3169307, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 3169901, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 3170107, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
-  { codigoIbge: 3170206, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
+  { codigoIbge: 3170206, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.camarauberlandia.mg.gov.br/imprensa/noticias/vereadores-aprovam-aumento-da-aliquota-de-iss' },
   { codigoIbge: 3170404, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 3170701, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 3171204, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
@@ -167,7 +175,7 @@ export const ISS_MUNICIPAL_NFSE_SEEDS: readonly IssMunicipalRateSeed[] = [
   { codigoIbge: 3203320, aliquotaMin: 3, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 3204302, aliquotaMin: 5, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 3204906, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
-  { codigoIbge: 3205002, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
+  { codigoIbge: 3205002, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.serra.es.gov.br/site/pagina/codigo-tributario-municipal' },
   { codigoIbge: 3205101, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 3205200, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 3300209, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
@@ -321,7 +329,7 @@ export const ISS_MUNICIPAL_NFSE_SEEDS: readonly IssMunicipalRateSeed[] = [
   { codigoIbge: 4108304, aliquotaMin: 4, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 4108403, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 4109807, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
-  { codigoIbge: 4113700, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
+  { codigoIbge: 4113700, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://repositorio.londrina.pr.gov.br/index.php/menu-fazenda/ggf/tabelas-iss/72250-tabela-2026-atualizada/file' },
   { codigoIbge: 4114609, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 4115200, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 4117305, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
