@@ -1,10 +1,18 @@
+import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
 import { describe, expect, it } from 'vitest';
 
 import {
   buildCoverageGapSummaryJson,
   computeIssMunicipalGaps,
   generateCoverageGapsMarkdown,
+  writeCoverageGapArtifacts,
 } from './coverage-gaps.js';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const FIXTURE_ROOT = path.join(__dirname, '../fixtures/coverage-gaps-determinism');
 
 describe('coverage-gaps', () => {
   const ibge = [
@@ -67,7 +75,7 @@ describe('coverage-gaps', () => {
 
   it('generates markdown with totals and UF table', () => {
     const result = computeIssMunicipalGaps(ibge, iss);
-    const markdown = generateCoverageGapsMarkdown(result, '2026-06-26T00:00:00.000Z');
+    const markdown = generateCoverageGapsMarkdown(result);
 
     expect(markdown).toContain('# Coverage gaps');
     expect(markdown).toContain('**1** municipalities not in embed');
@@ -78,10 +86,39 @@ describe('coverage-gaps', () => {
 
   it('builds summary JSON envelope', () => {
     const result = computeIssMunicipalGaps(ibge, iss);
-    const summary = buildCoverageGapSummaryJson(result, '2026-06-26T00:00:00.000Z');
+    const summary = buildCoverageGapSummaryJson(result);
 
-    expect(summary.generatedAt).toBe('2026-06-26T00:00:00.000Z');
     expect(summary.issMunicipal.issNotEmbeddedTotal).toBe(1);
     expect(summary.notes.inss).toContain('National');
+  });
+
+  it('writes byte-identical artifacts on repeat runs (CI freshness check)', async () => {
+    await rm(FIXTURE_ROOT, { recursive: true, force: true });
+    try {
+      const ibgePath = path.join(FIXTURE_ROOT, 'municipios.json');
+      const issPath = path.join(FIXTURE_ROOT, 'iss-municipal.json');
+      const outputDir = path.join(FIXTURE_ROOT, 'out');
+      const markdownPath = path.join(FIXTURE_ROOT, 'COVERAGE-GAPS.md');
+      await mkdir(FIXTURE_ROOT, { recursive: true });
+      await writeFile(ibgePath, JSON.stringify(ibge));
+      await writeFile(issPath, JSON.stringify(iss));
+
+      const options = { ibgeMunicipiosPath: ibgePath, issMunicipalPath: issPath, outputDir, markdownPath };
+      await writeCoverageGapArtifacts(options);
+      const snapshot = async (): Promise<string[]> =>
+        Promise.all(
+          ['summary.json', 'iss-municipal-not-embedded.json', 'iss-municipal-estimativa-only.json', 'iss-municipal-official-rate.json'].map(
+            (file) => readFile(path.join(outputDir, file), 'utf8'),
+          ),
+        );
+      const first = await snapshot();
+      const firstMarkdown = await readFile(markdownPath, 'utf8');
+
+      await writeCoverageGapArtifacts(options);
+      expect(await snapshot()).toEqual(first);
+      expect(await readFile(markdownPath, 'utf8')).toBe(firstMarkdown);
+    } finally {
+      await rm(FIXTURE_ROOT, { recursive: true, force: true });
+    }
   });
 });
