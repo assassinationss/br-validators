@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-24T14:42:42.776Z",
+  "generatedAt": "2026-09-24T14:49:40.722Z",
   "issMunicipal": {
     "ibgeMunicipioTotal": 5571,
     "issEmbeddedTotal": 500,
     "issNotEmbeddedTotal": 5071,
-    "issEstimativaOnlyTotal": 337,
-    "issOfficialMunicipalRateTotal": 163,
+    "issEstimativaOnlyTotal": 336,
+    "issOfficialMunicipalRateTotal": 164,
     "byUf": [
       {
         "uf": "AC",
@@ -204,8 +204,8 @@
         "ibgeTotal": 645,
         "embedded": 127,
         "notEmbedded": 518,
-        "estimativaOnly": 23,
-        "officialMunicipalRate": 104
+        "estimativaOnly": 22,
+        "officialMunicipalRate": 105
       },
       {
         "uf": "SE",

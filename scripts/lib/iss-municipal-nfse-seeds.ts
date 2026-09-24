@@ -7,9 +7,11 @@
  * as registered (all within the LC 116 Art. 8 2%–5% band).
  * @see https://www.gov.br/nfse/pt-br/biblioteca/aliquotas
  *
- * 2 rows: municipal legislation verified directly (absent from the NFSe table):
+ * 3 rows: municipal legislation verified directly (absent from the NFSe table):
  * - Campinas/SP — Lei 12.392/2005, Art. 27 (2%–5%), via Biblioteca Jurídica da Prefeitura.
  * - Niterói/RJ — Lei 2.597/2008 arts. 65–124 (2%, 3%, 5%), via Secretaria Municipal de Fazenda.
+ * - Barueri/SP — CTM LC 118/2002 + LC 157/2016 service table (2%–5%), via Secretaria de Finanças
+ *   Lista de Serviços com Códigos e Alíquotas.
  *
  * Rows below the 100-service threshold (e.g. Olímpia/SP, Quissamã/RJ) stay estimativa-only.
  * @see https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8
@@ -66,6 +68,7 @@ export const ISS_MUNICIPAL_NFSE_SEEDS: readonly IssMunicipalRateSeed[] = [
   { codigoIbge: 3504008, aliquotaMin: 3.5, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 3504107, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 3504503, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
+  { codigoIbge: 3505708, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://portal.barueri.sp.gov.br/secretarias/secretaria-de-financas/lista-de-servicos-com-codigos-e-aliquotas-pessoa-juridica-e-fisica' },
   { codigoIbge: 3506003, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 3506102, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },
   { codigoIbge: 3506508, aliquotaMin: 2, aliquotaMax: 5, leiUrl: 'https://www.gov.br/nfse/pt-br/biblioteca/aliquotas' },

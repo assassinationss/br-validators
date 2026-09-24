@@ -82,9 +82,9 @@
     "uf": "SP",
     "aliquotaMin": 2,
     "aliquotaMax": 5,
-    "leiUrl": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm#art8",
-    "capturadoEm": "2026-06-26",
-    "estimativa": true,
+    "leiUrl": "https://portal.barueri.sp.gov.br/secretarias/secretaria-de-financas/lista-de-servicos-com-codigos-e-aliquotas-pessoa-juridica-e-fisica",
+    "capturadoEm": "2026-09-24",
+    "estimativa": false,
     "pibRank": 16
   },
   {

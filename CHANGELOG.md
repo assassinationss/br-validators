@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - **ISS municipal partial embed (partial #20)** — **136** estimation-only rows upgraded to verified rates: **134** from the federal gov.br NFS-e registered alíquotas table (all 5,571 municipalities, extraction 2026-09-03; only municipalities with ≥ 100 currently-valid service rows), plus Campinas/SP (Lei 12.392/2005 Art. 27) and Niterói/RJ (Lei 2.597/2008) via directly verified municipal legislation. Estimation-only rows: **473 → 337**; official rows: **27 → 163**. Seeds live in `scripts/lib/iss-municipal-nfse-seeds.ts` and are honored by `buildIssMunicipalEmbed`, so daily refetches preserve the citations. Rows below the evidence threshold (e.g. Olímpia/SP, Quissamã/RJ) stay `estimativa: true`.
+- Barueri/SP upgraded via verified municipal legislation (CTM LC 118/2002 + LC 157/2016 service table, 2%–5%, Secretaria de Finanças Lista de Serviços). Estimation-only rows: **337 → 336**.
 
 ## [1.10.0-data.47] - 2026-09-21
 

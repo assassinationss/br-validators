@@ -63,6 +63,17 @@ describe('ISS municipal — official golden vectors', () => {
     expect(campinas?.leiUrl).toContain(vectors.golden.campinas.leiUrlContains);
   });
 
+  it('resolves Barueri with municipal portal citation', () => {
+    const barueri = getIssMunicipalPorIbge(vectors.golden.barueri.codigoIbge);
+    expect(barueri?.nome).toBe('Barueri');
+    expect(barueri?.uf).toBe('SP');
+    expect(barueri?.aliquotaMin).toBe(vectors.golden.barueri.aliquotaMin);
+    expect(barueri?.aliquotaMax).toBe(vectors.golden.barueri.aliquotaMax);
+    expect(barueri?.estimativa).toBe(vectors.golden.barueri.estimativa);
+    expect(barueri?.fonte).toBe(vectors.golden.barueri.fonte);
+    expect(barueri?.leiUrl).toContain(vectors.golden.barueri.leiUrlContains);
+  });
+
   it('resolves São Gonçalo with NFSe-registered refined band', () => {
     const saoGoncalo = getIssMunicipalPorIbge(vectors.golden.saoGoncalo.codigoIbge);
     expect(saoGoncalo?.nome).toBe('São Gonçalo');
