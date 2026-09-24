@@ -11,7 +11,9 @@ const manifestPath = join(packageRoot, 'export-manifest.json');
 const exportKeys = listCoreExportSubpaths(repoRoot);
 
 const manifest = {
-  generatedAt: new Date().toISOString(),
+  // NOTE: intentionally no `generatedAt` timestamp — the manifest must stay
+  // byte-identical across runs so `pnpm test:integration` leaves a clean tree.
+  // It only changes when core `package.json#exports` actually changes.
   source: 'packages/br-validators/package.json#exports',
   exportKeys,
   exceptions: [] as string[],
