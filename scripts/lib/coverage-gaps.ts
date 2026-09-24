@@ -174,7 +174,7 @@ export function computeIssMunicipalGaps(
   };
 }
 
-export function generateCoverageGapsMarkdown(result: IssMunicipalGapResult, generatedAt: string): string {
+export function generateCoverageGapsMarkdown(result: IssMunicipalGapResult): string {
   const { totals, byUf } = result;
 
   const ufTable = byUf
@@ -188,7 +188,7 @@ export function generateCoverageGapsMarkdown(result: IssMunicipalGapResult, gene
     '# Coverage gaps — municipalities, ISS rates, RG, payroll tables',
     '',
     '> **Maintainers:** regenerate with `pnpm generate:coverage-gaps` after IBGE or ISS embed updates.',
-    `> **Generated:** ${generatedAt}`,
+    '> CI fails when these artifacts drift from a fresh regeneration (see `.github/workflows/ci.yml`).',
     '',
     'This index lists **what is missing or estimation-only** in `@br-validators/core`. Full municipality lists live in JSON under [`data/coverage-gaps/`](../data/coverage-gaps/).',
     '',
@@ -264,7 +264,6 @@ export function generateCoverageGapsMarkdown(result: IssMunicipalGapResult, gene
 }
 
 export interface CoverageGapSummaryJson {
-  generatedAt: string;
   issMunicipal: IssMunicipalGapTotals & { byUf: UfIssGapCounts[] };
   notes: {
     inss: string;
@@ -273,12 +272,8 @@ export interface CoverageGapSummaryJson {
   };
 }
 
-export function buildCoverageGapSummaryJson(
-  result: IssMunicipalGapResult,
-  generatedAt: string,
-): CoverageGapSummaryJson {
+export function buildCoverageGapSummaryJson(result: IssMunicipalGapResult): CoverageGapSummaryJson {
   return {
-    generatedAt,
     issMunicipal: {
       ...result.totals,
       byUf: result.byUf,
@@ -296,7 +291,6 @@ export interface WriteCoverageGapArtifactsOptions {
   issMunicipalPath: string;
   outputDir: string;
   markdownPath: string;
-  generatedAt?: string;
 }
 
 function parseJsonArray<T extends object>(raw: string, label: string): T[] {
@@ -308,8 +302,6 @@ function parseJsonArray<T extends object>(raw: string, label: string): T[] {
 }
 
 export async function writeCoverageGapArtifacts(options: WriteCoverageGapArtifactsOptions): Promise<void> {
-  const generatedAt = options.generatedAt ?? new Date().toISOString();
-
   const ibgeMunicipios = parseJsonArray<MunicipioRecord>(
     await readFile(options.ibgeMunicipiosPath, 'utf8'),
     options.ibgeMunicipiosPath,
@@ -320,8 +312,8 @@ export async function writeCoverageGapArtifacts(options: WriteCoverageGapArtifac
   );
 
   const gaps = computeIssMunicipalGaps(ibgeMunicipios, issRows);
-  const summary = buildCoverageGapSummaryJson(gaps, generatedAt);
-  const markdown = generateCoverageGapsMarkdown(gaps, generatedAt);
+  const summary = buildCoverageGapSummaryJson(gaps);
+  const markdown = generateCoverageGapsMarkdown(gaps);
 
   await mkdir(options.outputDir, { recursive: true });
 
