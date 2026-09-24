@@ -75,6 +75,85 @@ describe('sync-daily-golden-vectors', () => {
     expect(vectors.staleness.freshReferenceDate).toBe('2026-06-29');
   });
 
+  it('picks oldest observation as stale when previous stale falls out of rolling window', async () => {
+    // Regression: data-refresh-bot Verify failed with
+    // `expected false to be true` at selic.test.ts:103 because the sync
+    // picked the newest date < fresh (fresh - 1 day = previous business day,
+    // NOT stale) instead of the oldest date (guaranteed stale).
+    const selicPath = await writeJson('selic-stale/selic.json', [
+      { data: '2026-09-20', valor: 13.75 },
+      { data: '2026-09-21', valor: 13.75 },
+      { data: '2026-09-22', valor: 13.75 },
+      { data: '2026-09-23', valor: 13.75 },
+      { data: '2026-09-24', valor: 13.75 },
+    ]);
+    const metadataPath = await writeJson('selic-stale/metadata.json', { capturadoEm: '2026-09-24' });
+    const vectorsPath = await writeJson('selic-stale/selic.official.json', {
+      golden: {
+        ultimaMeta: { data: '2026-09-18', valor: 13.75 },
+        inicioJanela: { data: '2026-06-21', valor: 14.25 },
+        historicoRange: {
+          from: { data: '2026-06-21', valor: 14.25 },
+          middle: { data: '2026-06-22', valor: 14.25 },
+          to: { data: '2026-06-23', valor: 14.25 },
+        },
+      },
+      staleness: {
+        asOfFresh: '2026-09-18',
+        freshReferenceDate: '2026-09-18',
+        staleReferenceDate: '2026-06-24',
+        capturadoEm: '2026-09-18',
+        staleWarning: 'Embedded data. For real-time use @br-validators/adapters-selic',
+      },
+    });
+
+    const updated = await syncSelicGoldenVectors(selicPath, metadataPath, vectorsPath);
+    expect(updated).toBe(true);
+
+    const vectors = JSON.parse(await readFile(vectorsPath, 'utf8')) as {
+      staleness: { staleReferenceDate: string; freshReferenceDate: string; asOfFresh: string };
+    };
+    // Oldest, not newest (2026-09-23 would NOT be stale vs 2026-09-24).
+    expect(vectors.staleness.staleReferenceDate).toBe('2026-09-20');
+    expect(vectors.staleness.staleReferenceDate < vectors.staleness.freshReferenceDate).toBe(true);
+  });
+
+  it('keeps existing stale date while it remains in the rolling window', async () => {
+    const selicPath = await writeJson('selic-keep/selic.json', [
+      { data: '2026-06-24', valor: 14.25 },
+      { data: '2026-06-25', valor: 14.25 },
+      { data: '2026-06-26', valor: 14.25 },
+      { data: '2026-09-21', valor: 13.75 },
+    ]);
+    const metadataPath = await writeJson('selic-keep/metadata.json', { capturadoEm: '2026-09-21' });
+    const vectorsPath = await writeJson('selic-keep/selic.official.json', {
+      golden: {
+        ultimaMeta: { data: '2026-09-18', valor: 13.75 },
+        inicioJanela: { data: '2026-06-21', valor: 14.25 },
+        historicoRange: {
+          from: { data: '2026-06-21', valor: 14.25 },
+          middle: { data: '2026-06-22', valor: 14.25 },
+          to: { data: '2026-06-23', valor: 14.25 },
+        },
+      },
+      staleness: {
+        asOfFresh: '2026-09-18',
+        freshReferenceDate: '2026-09-18',
+        staleReferenceDate: '2026-06-24',
+        capturadoEm: '2026-09-18',
+        staleWarning: 'Embedded data. For real-time use @br-validators/adapters-selic',
+      },
+    });
+
+    const updated = await syncSelicGoldenVectors(selicPath, metadataPath, vectorsPath);
+    expect(updated).toBe(true);
+
+    const vectors = JSON.parse(await readFile(vectorsPath, 'utf8')) as {
+      staleness: { staleReferenceDate: string };
+    };
+    expect(vectors.staleness.staleReferenceDate).toBe('2026-06-24');
+  });
+
   it('updates PTAX último dia útil golden fields from embedded data', async () => {
     const ptaxPath = await writeJson('ptax/ptax.json', [
       {
