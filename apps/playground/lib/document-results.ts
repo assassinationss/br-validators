@@ -14,6 +14,7 @@ import {
   formatCnh,
   formatCnpj,
   formatCpf,
+  formatIeProdutorRural,
   formatInscricaoEstadual,
   formatNfeChave,
   formatProcessoJudicial,
@@ -28,12 +29,14 @@ import {
   isSpRuralIeInput,
   parseBrCode,
   sanitize,
+  stripArrecadacao,
   stripCartaoCredito,
   stripEan,
   stripCep,
   stripCnh,
   stripCnpj,
   stripCpf,
+  stripIeSpRural,
   stripInscricaoEstadual,
   stripNfeChave,
   stripProcessoJudicial,
@@ -45,6 +48,7 @@ import {
   stripRg,
   stripTelefone,
   stripTituloEleitor,
+  validateArrecadacao,
   validateBoleto,
   validateBrCode,
   validateCartaoCredito,
@@ -117,12 +121,16 @@ function runSanitize(slug: DocumentSlug, input: string, uf: UfCode): SanitizeRes
       return sanitize(input, 'nfe-chave');
     case 'boleto':
       return sanitize(input, 'boleto');
+    case 'boleto-arrecadacao':
+      return sanitize(input, 'boleto');
     case 'cartao':
       return sanitize(input, 'cartao-credito');
     case 'ean':
       return sanitize(input, 'ean');
     case 'ie':
       return sanitize(input, 'inscricao-estadual', { uf });
+    case 'ie-produtor-rural':
+      return sanitize(input, 'inscricao-estadual-produtor-rural');
     case 'pix':
       return sanitize(input, 'pix');
     default:
@@ -310,6 +318,18 @@ export function computeDocumentResults(
       }
       break;
     }
+    case 'ie-produtor-rural': {
+      stripped = stripIeSpRural(input);
+      const validation = validateIeProdutorRural('SP', input);
+      const formatted = formatIeProdutorRural(input);
+      validationDetail = validation.ok ? 'yes (SP produtor rural)' : `no — ${validation.code}`;
+      formattedValue = formatted.ok ? formatted.formatted : formatted.message;
+      extraRows.push({ label: 'Kind', value: 'SP produtor rural' });
+      if (validation.ok) {
+        extraRows.push({ label: 'Value', value: validation.value, mono: true });
+      }
+      break;
+    }
     case 'pix': {
       stripped = stripPixKey(input);
       const detected = detectPixKeyType(input);
@@ -373,6 +393,21 @@ export function computeDocumentResults(
       }
       break;
     }
+    case 'boleto-arrecadacao': {
+      stripped = stripArrecadacao(input);
+      const validation = validateArrecadacao(input);
+      validationDetail = validation.ok ? `yes (${validation.inputKind})` : `no — ${validation.code}`;
+      formattedValue = '—';
+      extraRows.push({ label: 'Detect', value: validation.ok ? validation.inputKind : 'unknown' });
+      if (validation.ok) {
+        extraRows.push({ label: 'Value', value: validation.value, mono: true });
+        extraRows.push(
+          { label: 'Segment', value: validation.segment },
+          { label: 'Value type', value: validation.valueType },
+        );
+      }
+      break;
+    }
     case 'cartao': {
       stripped = stripCartaoCredito(input);
       const validation = validateCartaoCredito(input);
@@ -430,9 +465,11 @@ export function buildCliCommand(
     rg: 'rg',
     'nfe-chave': 'nfe-chave',
     ie: 'ie',
+    'ie-produtor-rural': 'ie',
     pix: 'pix',
     brcode: 'brcode',
     boleto: 'boleto',
+    'boleto-arrecadacao': 'boleto',
     cartao: 'cartao-credito',
     ean: 'ean',
   } as const;
@@ -446,6 +483,9 @@ export function buildCliCommand(
       if (slug === 'ie') {
         return `br-validators sanitize ${quoted} --type inscricao-estadual --uf ${uf}`;
       }
+      if (slug === 'ie-produtor-rural') {
+        return `br-validators sanitize ${quoted} --type inscricao-estadual-produtor-rural`;
+      }
       if (slug === 'rg') {
         return `br-validators sanitize ${quoted} --type rg --uf ${uf}`;
       }
@@ -457,17 +497,27 @@ export function buildCliCommand(
       if (slug === 'rg') {
         return `br-validators rg format ${value} --uf ${uf}`;
       }
+      if (slug === 'ie-produtor-rural') {
+        return `br-validators ie format ${value} --uf SP`;
+      }
       return `br-validators ${cliSlug} format ${value}`;
     case 'strip':
-      return slug === 'rg'
-        ? `br-validators rg strip ${quoted} --uf ${uf}`
-        : `br-validators ${cliSlug} strip ${quoted}`;
+      if (slug === 'rg') {
+        return `br-validators rg strip ${quoted} --uf ${uf}`;
+      }
+      if (slug === 'ie-produtor-rural') {
+        return `br-validators ie strip ${quoted} --uf SP`;
+      }
+      return `br-validators ${cliSlug} strip ${quoted}`;
     default:
       if (slug === 'ie') return `br-validators ie validate ${value} --uf ${uf}`;
+      if (slug === 'ie-produtor-rural') return `br-validators ie validate ${value} --uf SP --json`;
       if (slug === 'rg') return `br-validators rg validate ${value} --uf ${uf} --json`;
       if (slug === 'brcode') return `br-validators brcode parse ${quoted} --json`;
       if (slug === 'telefone') return `br-validators telefone validate ${quoted} --json`;
-      if (slug === 'pix' || slug === 'boleto') return `br-validators ${cliSlug} validate ${quoted} --json`;
+      if (slug === 'pix' || slug === 'boleto' || slug === 'boleto-arrecadacao') {
+        return `br-validators ${cliSlug} validate ${quoted} --json`;
+      }
       return `br-validators ${cliSlug} validate ${value} --json`;
   }
 }

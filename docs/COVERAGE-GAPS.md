@@ -1,7 +1,7 @@
 # Coverage gaps — municipalities, ISS rates, RG, payroll tables
 
 > **Maintainers:** regenerate with `pnpm generate:coverage-gaps` after IBGE or ISS embed updates.
-> **Generated:** 2026-09-24T15:36:19.220Z
+> CI fails when these artifacts drift from a fresh regeneration (see `.github/workflows/ci.yml`).
 
 This index lists **what is missing or estimation-only** in `@br-validators/core`. Full municipality lists live in JSON under [`data/coverage-gaps/`](../data/coverage-gaps/).
 

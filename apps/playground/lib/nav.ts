@@ -34,9 +34,11 @@ export const DOCUMENT_ROUTES = [
   { slug: 'rg', label: 'RG', description: 'Per-UF identity card (6 states)', group: 'documents' },
   { slug: 'nfe-chave', label: 'NF-e Chave', description: '44-digit access key', group: 'documents' },
   { slug: 'ie', label: 'Inscrição Estadual', description: '27 UFs', group: 'documents' },
+  { slug: 'ie-produtor-rural', label: 'IE Produtor Rural', description: 'SP rural producer', group: 'documents' },
   { slug: 'pix', label: 'PIX Key', description: 'Bacen DICT — 5 types', group: 'documents' },
   { slug: 'brcode', label: 'BR Code', description: 'Pix EMV payload', group: 'documents' },
   { slug: 'boleto', label: 'Boleto', description: 'FEBRABAN cobrança', group: 'documents' },
+  { slug: 'boleto-arrecadacao', label: 'Boleto Arrecadação', description: 'FEBRABAN arrecadação 48/44', group: 'documents' },
   { slug: 'cartao', label: 'Cartão de Crédito', description: 'Luhn algorithm', group: 'documents' },
   { slug: 'ean', label: 'EAN', description: 'GS1 EAN-8 / EAN-13', group: 'documents' },
 ] as const satisfies readonly DocumentRoute[];

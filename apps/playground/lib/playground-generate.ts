@@ -21,8 +21,10 @@ const CORE_GENERATE_SLUG: Partial<Record<DocumentSlug, GeneratableDocumentType>>
   renavam: 'renavam',
   pix: 'pix',
   boleto: 'boleto',
+  'boleto-arrecadacao': 'boleto-arrecadacao',
   'nfe-chave': 'nfe-chave',
   brcode: 'brcode',
+  'ie-produtor-rural': 'inscricao-estadual-produtor-rural',
 };
 
 export type PlaygroundGenerateOptions = {
