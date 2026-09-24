@@ -71,7 +71,7 @@ describe('iss-municipal CLI', () => {
 
   it('prints verbose human output for estimation row', () => {
     const io = { stdout: [] as string[], stderr: [] as string[] };
-    expect(runIssMunicipalLookup('3534401', { json: false, verbose: true }, io)).toBe(EXIT.OK);
+    expect(runIssMunicipalLookup('3518800', { json: false, verbose: true }, io)).toBe(EXIT.OK);
     expect(io.stdout.some((line) => line.startsWith('fonte: estimativa'))).toBe(true);
     expect(io.stdout.some((line) => line.startsWith('estimativa: true'))).toBe(true);
   });

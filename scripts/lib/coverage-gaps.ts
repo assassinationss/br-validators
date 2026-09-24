@@ -214,7 +214,7 @@ export function generateCoverageGapsMarkdown(result: IssMunicipalGapResult, gene
     `| IBGE municipalities (total) | ${String(totals.ibgeMunicipioTotal)} |`,
     `| Embedded in library | ${String(totals.issEmbeddedTotal)} |`,
     `| **Not embedded** (no lookup row) | **${String(totals.issNotEmbeddedTotal)}** |`,
-    `| Embedded with **official municipal rate** (capital legislation URL) | ${String(totals.issOfficialMunicipalRateTotal)} |`,
+    `| Embedded with **official municipal rate** (verified legislation or NFSe-registered alíquota) | ${String(totals.issOfficialMunicipalRateTotal)} |`,
     `| Embedded with **estimation only** (LC 116 Art. 8 band — not verified municipal law) | **${String(totals.issEstimativaOnlyTotal)}** |`,
     '',
     '### Counts by UF',

@@ -3,6 +3,7 @@
   "pibSource": "https://apisidra.ibge.gov.br/values/t/5938/n6/all/v/37/p/2022",
   "targetCount": 500,
   "capitalCount": 27,
+  "officialCount": 450,
   "golden": {
     "saoPaulo": {
       "codigoIbge": 3550308,
@@ -28,9 +29,41 @@
       "codigoIbge": 3509502,
       "aliquotaMin": 2,
       "aliquotaMax": 5,
-      "estimativa": true,
-      "fonte": "estimativa",
-      "leiUrlContains": "planalto.gov.br"
+      "estimativa": false,
+      "fonte": "oficial",
+      "leiUrlContains": "campinas.sp.gov.br"
+    },
+    "saoGoncalo": {
+      "codigoIbge": 3304904,
+      "aliquotaMin": 5,
+      "aliquotaMax": 5,
+      "estimativa": false,
+      "fonte": "oficial",
+      "leiUrlContains": "gov.br/nfse"
+    },
+    "barueri": {
+      "codigoIbge": 3505708,
+      "aliquotaMin": 2,
+      "aliquotaMax": 5,
+      "estimativa": false,
+      "fonte": "oficial",
+      "leiUrlContains": "barueri.sp.gov.br"
+    },
+    "querencia": {
+      "codigoIbge": 5107065,
+      "aliquotaMin": 3,
+      "aliquotaMax": 3,
+      "estimativa": false,
+      "fonte": "oficial",
+      "leiUrlContains": "gov.br/nfse"
+    },
+    "patoBranco": {
+      "codigoIbge": 4118501,
+      "aliquotaMin": 2,
+      "aliquotaMax": 5,
+      "estimativa": false,
+      "fonte": "oficial",
+      "leiUrlContains": "sapl.patobranco.pr.leg.br"
     }
   },
   "ufFilter": {

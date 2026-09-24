@@ -13,6 +13,7 @@ import { getAllIssMunicIbge } from '../../../src/iss-municipal/cascade-lookup.js
 import {
   ISS_MUNIC_GOLDEN_ACRELANDIA,
   ISS_MUNICIPAL_CAPITAL_COUNT,
+  ISS_MUNICIPAL_CAPITAL_IBGE_CODES,
   ISS_MUNICIPAL_ESTIMATION_WARNING,
   ISS_MUNICIPAL_GOLDEN_RIO,
   ISS_MUNICIPAL_GOLDEN_SAO_PAULO,
@@ -51,7 +52,7 @@ describe('ISS municipal — official golden vectors', () => {
     expect(bh?.leiUrl).toContain(vectors.golden.beloHorizonte.leiUrlContains);
   });
 
-  it('resolves Campinas as high-PIB estimation row', () => {
+  it('resolves Campinas as high-PIB official row (municipal legislation)', () => {
     const campinas = getIssMunicipalPorIbge(vectors.golden.campinas.codigoIbge);
     expect(campinas?.nome).toBe('Campinas');
     expect(campinas?.uf).toBe('SP');
@@ -60,6 +61,50 @@ describe('ISS municipal — official golden vectors', () => {
     expect(campinas?.estimativa).toBe(vectors.golden.campinas.estimativa);
     expect(campinas?.fonte).toBe(vectors.golden.campinas.fonte);
     expect(campinas?.leiUrl).toContain(vectors.golden.campinas.leiUrlContains);
+  });
+
+  it('resolves Barueri with municipal portal citation', () => {
+    const barueri = getIssMunicipalPorIbge(vectors.golden.barueri.codigoIbge);
+    expect(barueri?.nome).toBe('Barueri');
+    expect(barueri?.uf).toBe('SP');
+    expect(barueri?.aliquotaMin).toBe(vectors.golden.barueri.aliquotaMin);
+    expect(barueri?.aliquotaMax).toBe(vectors.golden.barueri.aliquotaMax);
+    expect(barueri?.estimativa).toBe(vectors.golden.barueri.estimativa);
+    expect(barueri?.fonte).toBe(vectors.golden.barueri.fonte);
+    expect(barueri?.leiUrl).toContain(vectors.golden.barueri.leiUrlContains);
+  });
+
+  it('resolves Pato Branco with SAPL-published municipal table', () => {
+    const patoBranco = getIssMunicipalPorIbge(vectors.golden.patoBranco.codigoIbge);
+    expect(patoBranco?.nome).toBe('Pato Branco');
+    expect(patoBranco?.uf).toBe('PR');
+    expect(patoBranco?.aliquotaMin).toBe(vectors.golden.patoBranco.aliquotaMin);
+    expect(patoBranco?.aliquotaMax).toBe(vectors.golden.patoBranco.aliquotaMax);
+    expect(patoBranco?.estimativa).toBe(vectors.golden.patoBranco.estimativa);
+    expect(patoBranco?.fonte).toBe(vectors.golden.patoBranco.fonte);
+    expect(patoBranco?.leiUrl).toContain(vectors.golden.patoBranco.leiUrlContains);
+  });
+
+  it('resolves Querência with NFSe-registered max-refined band', () => {
+    const querencia = getIssMunicipalPorIbge(vectors.golden.querencia.codigoIbge);
+    expect(querencia?.nome).toBe('Querência');
+    expect(querencia?.uf).toBe('MT');
+    expect(querencia?.aliquotaMin).toBe(vectors.golden.querencia.aliquotaMin);
+    expect(querencia?.aliquotaMax).toBe(vectors.golden.querencia.aliquotaMax);
+    expect(querencia?.estimativa).toBe(vectors.golden.querencia.estimativa);
+    expect(querencia?.fonte).toBe(vectors.golden.querencia.fonte);
+    expect(querencia?.leiUrl).toContain(vectors.golden.querencia.leiUrlContains);
+  });
+
+  it('resolves São Gonçalo with NFSe-registered refined band', () => {
+    const saoGoncalo = getIssMunicipalPorIbge(vectors.golden.saoGoncalo.codigoIbge);
+    expect(saoGoncalo?.nome).toBe('São Gonçalo');
+    expect(saoGoncalo?.uf).toBe('RJ');
+    expect(saoGoncalo?.aliquotaMin).toBe(vectors.golden.saoGoncalo.aliquotaMin);
+    expect(saoGoncalo?.aliquotaMax).toBe(vectors.golden.saoGoncalo.aliquotaMax);
+    expect(saoGoncalo?.estimativa).toBe(vectors.golden.saoGoncalo.estimativa);
+    expect(saoGoncalo?.fonte).toBe(vectors.golden.saoGoncalo.fonte);
+    expect(saoGoncalo?.leiUrl).toContain(vectors.golden.saoGoncalo.leiUrlContains);
   });
 
   it('looks up by UF and municipality name with accent-insensitive match', () => {
@@ -142,9 +187,14 @@ describe('ISS municipal — embed policy', () => {
     expect(rows.length).toBe(ISS_MUNICIPAL_TARGET_COUNT);
     expect(rows.length).toBe(vectors.targetCount);
 
-    const capitalRows = rows.filter((row) => !row.estimativa);
+    const capitalRows = rows.filter((row) =>
+      ISS_MUNICIPAL_CAPITAL_IBGE_CODES.includes(row.codigoIbge),
+    );
     expect(capitalRows.length).toBe(ISS_MUNICIPAL_CAPITAL_COUNT);
     expect(capitalRows.length).toBe(vectors.capitalCount);
+
+    const officialRows = rows.filter((row) => !row.estimativa);
+    expect(officialRows.length).toBe(vectors.officialCount);
   });
 
   it('keeps alíquota bands within LC 116 Art. 8 limits', () => {

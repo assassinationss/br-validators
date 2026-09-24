@@ -705,12 +705,13 @@ Golden: `1.01` (análise e desenvolvimento de sistemas), `7.02` (execução de o
 | IBGE — municipality codes | IBGE | https://www.ibge.gov.br/explica/codigos-dos-municipios.php |
 | CNM — municipal legislation index | CNM | https://www.cnm.org.br/ |
 | NFSe Nacional | gov.br | https://www.gov.br/nfse/pt-br |
+| NFS-e alíquotas table (all 5,571 municipalities, per-service rates) | gov.br / Receita Federal | https://www.gov.br/nfse/pt-br/biblioteca/aliquotas |
 
-Golden: IBGE **`3550308`** (São Paulo/SP — alíquota band 2%–5%, `legislacao.prefeitura.sp.gov.br`), **`3304557`** (Rio de Janeiro/RJ), **`3106200`** (Belo Horizonte/MG), **`3509502`** (Campinas/SP — high-PIB non-capital, `estimativa: true`).
+Golden: IBGE **`3550308`** (São Paulo/SP — alíquota band 2%–5%, `legislacao.prefeitura.sp.gov.br`), **`3304557`** (Rio de Janeiro/RJ), **`3106200`** (Belo Horizonte/MG), **`3509502`** (Campinas/SP — high-PIB non-capital, Lei 12.392/2005, `estimativa: false`), **`3304904`** (São Gonçalo/RJ — NFSe-registered refined band 5%–5%).
 
 `getIssMunicipalPorIbge`, `lookupIssMunicipalPorIbge`, `getIssMunicipalPorUf`, `getIssMunicipalPorUfMunicipio`, `searchIssMunicipal(query, { uf?, limit? })`, `getIssMunicipalUfsDisponiveis`, `getAllIssMunicipal` — every `IssMunicipalResult` includes `fonte` (`'oficial'` | `'munic-ibge'` | `'estimativa'`), `warning` (estimation / quoting only; **not** NFSe emission), and legacy `estimativa` boolean.
 
-**Scope v1:** 27 state capitals + top PIB municipalities (SIDRA 5938, PIB 2022) deduplicated to **500 rows**. Fields: `aliquotaMin`, `aliquotaMax`, `leiUrl`, `capturadoEm`, `fonte`, `estimativa`. `fonte: 'oficial'` — capital seed with verified municipal legislation URL; `fonte: 'estimativa'` — LC 116 Art. 8 band fallback (**473 rows**). Capital rows cite municipal portals; non-capital rows use LC 116 Art. 8 band with `estimativa: true` — **not** verified municipal legislation. **Out of scope:** per-LC-116-item municipal rates, NFSe emission validation.
+**Scope v1:** 27 state capitals + top PIB municipalities (SIDRA 5938, PIB 2022) deduplicated to **500 rows**. Fields: `aliquotaMin`, `aliquotaMax`, `leiUrl`, `capturadoEm`, `fonte`, `estimativa`. `fonte: 'oficial'` — capital seed with verified municipal legislation URL, federal NFSe-registered alíquota (**419** non-capital rows, seeds in `scripts/lib/iss-municipal-nfse-seeds.ts`), or directly verified municipal law (Campinas/SP Lei 12.392/2005, Niterói/RJ Lei 2.597/2008, Barueri/SP CTM LC 118/2002 + LC 157/2016, Contagem/MG LC 240/2017, Uberlândia/MG LC 336/2003, Londrina/PR Lei 7.303/97, Serra/ES Lei 5.400/2021 + CTM Lei 3833/2011, Pato Branco/PR LC 118/2025); `fonte: 'estimativa'` — LC 116 Art. 8 band fallback (**50 rows**). Remaining non-capital rows use LC 116 Art. 8 band with `estimativa: true` — **not** verified municipal legislation. **Out of scope:** per-LC-116-item municipal rates, NFSe emission validation.
 
 ---
 

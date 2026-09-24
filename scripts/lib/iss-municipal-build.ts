@@ -7,6 +7,7 @@ import {
   ISS_MUNICIPAL_CAPITAL_SEEDS,
   type IssMunicipalRateSeed,
 } from './iss-municipal-capital-seeds.js';
+import { ISS_MUNICIPAL_NFSE_SEEDS } from './iss-municipal-nfse-seeds.js';
 import type { IbgeSidraPibRow } from './parse-ibge-pib-sidra.js';
 import { sortSidraPibRowsByPibDesc } from './parse-ibge-pib-sidra.js';
 import { parseIbgePibTopMunicipios, type IbgePibMunicipioRow } from './parse-ibge-pib-top-municipios.js';
@@ -111,7 +112,14 @@ export function buildIssMunicipalEmbed(params: {
 }): IssMunicipalEmbedRow[] {
   const targetCount = params.targetCount ?? ISS_MUNICIPAL_TARGET_COUNT;
   const byCodigo = new Map(params.municipios.map((entry) => [entry.codigo, entry]));
+  // Capital seeds win on overlap; NFSe/municipal-law seeds upgrade verified
+  // non-capital rows so refetches preserve official citations.
   const seeds = seedByIbge(ISS_MUNICIPAL_CAPITAL_SEEDS);
+  for (const seed of ISS_MUNICIPAL_NFSE_SEEDS) {
+    if (!seeds.has(seed.codigoIbge)) {
+      seeds.set(seed.codigoIbge, seed);
+    }
+  }
   const selected = new Map<number, IssMunicipalEmbedRow>();
 
   for (const codigoIbge of ISS_MUNICIPAL_CAPITAL_IBGE_CODES) {
