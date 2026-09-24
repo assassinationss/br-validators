@@ -1,4 +1,10 @@
-import { IE_OFFICIAL_SOURCE_URLS, RG_OFFICIAL_SOURCE_URLS, type UfCode } from '@br-validators/core';
+import {
+  BOLETO_ARRECADACAO_OFFICIAL_SOURCE_URL,
+  IE_OFFICIAL_SOURCE_URLS,
+  IE_SP_RURAL_OFFICIAL_SOURCE_URL,
+  RG_OFFICIAL_SOURCE_URLS,
+  type UfCode,
+} from '@br-validators/core';
 import type { DocumentSlug } from './nav';
 
 export type OfficialSourceRef = {
@@ -27,11 +33,13 @@ export const OFFICIAL_SOURCES_ORDER: DocumentSlug[] = [
   'pix',
   'brcode',
   'boleto',
+  'boleto-arrecadacao',
   'cartao',
   'ean',
   'pis',
   'cnis',
   'ie',
+  'ie-produtor-rural',
 ];
 
 const UF_CODES = Object.keys(IE_OFFICIAL_SOURCE_URLS) as UfCode[];
@@ -380,6 +388,18 @@ export const OFFICIAL_SOURCES_CATALOG: Record<DocumentSlug, OfficialSourcesEntry
         href: 'https://cmsarquivos.febraban.org.br/Arquivos/documentos/PDF/Conven%C3%A7%C3%A3o%20da%20Cobran%C3%A7a%20-%2005_02_2021_f.pdf',
       },
     ],
+  },
+  'boleto-arrecadacao': {
+    title: 'Boleto Arrecadação',
+    agency: 'FEBRABAN',
+    links: [
+      { label: 'Layout Padrão de Arrecadação v7 (PDF)', href: BOLETO_ARRECADACAO_OFFICIAL_SOURCE_URL },
+    ],
+  },
+  'ie-produtor-rural': {
+    title: 'IE Produtor Rural',
+    agency: 'SEFAZ-SP',
+    links: [{ label: 'SEFAZ-SP produtor rural', href: IE_SP_RURAL_OFFICIAL_SOURCE_URL }],
   },
   cartao: {
     title: 'Credit card',

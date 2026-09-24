@@ -127,10 +127,10 @@ describe('Gov.br reference groups', () => {
     expect(list.mode).toBe('list');
     expect(list.rows.every((row) => row.uf === 'SP')).toBe(true);
 
-    const search = resolveIssMunicipalExplorerResults('campinas', 'SP');
+    const search = resolveIssMunicipalExplorerResults('guarulhos', 'SP');
     expect(search.mode).toBe('search');
-    expect(search.rows.some((row) => row.codigoIbge === 3509502)).toBe(true);
-    expect(search.rows.find((row) => row.codigoIbge === 3509502)?.fonte).toBe('estimativa');
+    expect(search.rows.some((row) => row.codigoIbge === 3518800)).toBe(true);
+    expect(search.rows.find((row) => row.codigoIbge === 3518800)?.fonte).toBe('estimativa');
 
     const blocked = resolveIssMunicipalExplorerResults(String(ISS_MUNICIPAL_GOLDEN_SAO_PAULO), 'RJ');
     expect(blocked.rows).toEqual([]);

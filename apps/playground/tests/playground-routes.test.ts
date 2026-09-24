@@ -10,6 +10,8 @@ describe('resolvePlaygroundRoute', () => {
     expect(resolvePlaygroundRoute('/cpf')).toEqual({ kind: 'document', slug: 'cpf' });
     expect(resolvePlaygroundRoute('/rg')).toEqual({ kind: 'document', slug: 'rg' });
     expect(resolvePlaygroundRoute('/pix')).toEqual({ kind: 'document', slug: 'pix' });
+    expect(resolvePlaygroundRoute('/boleto-arrecadacao')).toEqual({ kind: 'document', slug: 'boleto-arrecadacao' });
+    expect(resolvePlaygroundRoute('/ie-produtor-rural')).toEqual({ kind: 'document', slug: 'ie-produtor-rural' });
   });
 
   it('maps cartao-credito alias to cartao', () => {
